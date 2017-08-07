@@ -1,6 +1,6 @@
 *.bak
 *.bck
-/test/
+/out/
 .dep/
 *.swp
 *-cache.lib
