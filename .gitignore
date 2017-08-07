@@ -4,5 +4,6 @@
 .dep/
 *.swp
 *-cache.lib
+*-rescue.lib
 *.kicad_pcb-bak
 *.net
