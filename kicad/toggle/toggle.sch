@@ -1,0 +1,195 @@
+EESchema Schematic File Version 4
+LIBS:toggle-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "29 jan 2008"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Connection ~ 3200 1950
+Wire Wire Line
+	3200 2100 3200 1950
+Wire Wire Line
+	2950 1300 3200 1300
+Wire Wire Line
+	1500 1900 1500 2550
+Wire Wire Line
+	1500 2550 2800 2550
+Wire Wire Line
+	2800 2550 2800 2200
+Wire Wire Line
+	2800 2200 2550 2200
+Wire Wire Line
+	1300 2100 1300 1900
+Wire Wire Line
+	1600 2100 1600 1900
+Wire Wire Line
+	1200 1900 1200 2100
+Wire Wire Line
+	1900 1900 1900 2100
+Wire Wire Line
+	2550 2300 2650 2300
+Wire Wire Line
+	2650 2300 2650 2400
+Wire Wire Line
+	2350 1300 2350 1100
+Wire Wire Line
+	3200 2500 3200 2700
+Wire Wire Line
+	2700 1950 2700 2100
+Wire Wire Line
+	2700 2100 2550 2100
+$Comp
+L toggle-rescue:R R1
+U 1 1 479F06F9
+P 2950 1950
+F 0 "R1" V 3030 1950 50  0000 C CNN
+F 1 "10k" V 2950 1950 50  0000 C CNN
+F 2 "" H 2950 1950 60  0001 C CNN
+F 3 "" H 2950 1950 60  0001 C CNN
+	1    2950 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L toggle-rescue:GND-RESCUE-toggle #PWR?
+U 1 1 479F06D4
+P 3200 2700
+F 0 "#PWR?" H 3200 2700 30  0001 C CNN
+F 1 "GND" H 3200 2630 30  0001 C CNN
+F 2 "" H 3200 2700 60  0001 C CNN
+F 3 "" H 3200 2700 60  0001 C CNN
+	1    3200 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L toggle-rescue:CP C1
+U 1 1 479F06CA
+P 3200 2300
+F 0 "C1" H 3250 2400 50  0000 L CNN
+F 1 "1u" H 3250 2200 50  0000 L CNN
+F 2 "" H 3200 2300 60  0001 C CNN
+F 3 "" H 3200 2300 60  0001 C CNN
+	1    3200 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L toggle-rescue:GND-RESCUE-toggle #PWR?
+U 1 1 479F068C
+P 2650 2400
+F 0 "#PWR?" H 2650 2400 30  0001 C CNN
+F 1 "GND" H 2650 2330 30  0001 C CNN
+F 2 "" H 2650 2400 60  0001 C CNN
+F 3 "" H 2650 2400 60  0001 C CNN
+	1    2650 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L toggle-rescue:DS_2405 DS1
+U 1 1 479F0671
+P 2200 2200
+F 0 "DS1" H 2200 2200 60  0000 C CNN
+F 1 "DS_2405" H 2230 2120 60  0000 C CNN
+F 2 "" H 2200 2200 60  0001 C CNN
+F 3 "" H 2200 2200 60  0001 C CNN
+	1    2200 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L toggle-rescue:R R2
+U 1 1 479F064E
+P 3200 1550
+F 0 "R2" V 3280 1550 50  0000 C CNN
+F 1 "100k" V 3200 1550 50  0000 C CNN
+F 2 "" H 3200 1550 60  0001 C CNN
+F 3 "" H 3200 1550 60  0001 C CNN
+	1    3200 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L toggle-rescue:+5V #PWR?
+U 1 1 479F0641
+P 2350 1100
+F 0 "#PWR?" H 2350 1190 20  0001 C CNN
+F 1 "+5V" H 2350 1190 30  0000 C CNN
+F 2 "" H 2350 1100 60  0001 C CNN
+F 3 "" H 2350 1100 60  0001 C CNN
+	1    2350 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L toggle-rescue:SW_PUSH SW1
+U 1 1 479F042F
+P 2650 1300
+F 0 "SW1" H 2800 1410 50  0000 C CNN
+F 1 "SW_PUSH" H 2650 1220 50  0000 C CNN
+F 2 "" H 2650 1300 60  0001 C CNN
+F 3 "" H 2650 1300 60  0001 C CNN
+	1    2650 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L toggle-rescue:+5V #PWR?
+U 1 1 479F0401
+P 1300 2100
+F 0 "#PWR?" H 1300 2190 20  0001 C CNN
+F 1 "+5V" H 1300 2190 30  0000 C CNN
+F 2 "" H 1300 2100 60  0001 C CNN
+F 3 "" H 1300 2100 60  0001 C CNN
+	1    1300 2100
+	1    0    0    1   
+$EndComp
+$Comp
+L toggle-rescue:GND-RESCUE-toggle #PWR?
+U 1 1 479F03E9
+P 1200 2100
+F 0 "#PWR?" H 1200 2100 30  0001 C CNN
+F 1 "GND" H 1200 2030 30  0001 C CNN
+F 2 "" H 1200 2100 60  0001 C CNN
+F 3 "" H 1200 2100 60  0001 C CNN
+	1    1200 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L toggle-rescue:GND-RESCUE-toggle #PWR?
+U 1 1 479F03E3
+P 1900 2100
+F 0 "#PWR?" H 1900 2100 30  0001 C CNN
+F 1 "GND" H 1900 2030 30  0001 C CNN
+F 2 "" H 1900 2100 60  0001 C CNN
+F 3 "" H 1900 2100 60  0001 C CNN
+	1    1900 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L toggle-rescue:GND-RESCUE-toggle #PWR?
+U 1 1 479F03DE
+P 1600 2100
+F 0 "#PWR?" H 1600 2100 30  0001 C CNN
+F 1 "GND" H 1600 2030 30  0001 C CNN
+F 2 "" H 1600 2100 60  0001 C CNN
+F 3 "" H 1600 2100 60  0001 C CNN
+	1    1600 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L toggle-rescue:RJ45_1Wire J1
+U 1 1 479F03CC
+P 1550 1450
+F 0 "J1" H 1200 1800 60  0000 C CNN
+F 1 "RJ45_1Wire" H 1550 1950 60  0000 C CNN
+F 2 "" H 1550 1450 60  0001 C CNN
+F 3 "" H 1550 1450 60  0001 C CNN
+	1    1550 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 1950 3200 1800
+$EndSCHEMATC

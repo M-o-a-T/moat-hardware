@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name relay.cache)(type Legacy)(uri ${KICAD_USER_TEMPLATE_DIR}/relay/relay.cache.lib)(options "")(descr ""))
+  (lib (name relay_1rt)(type Legacy)(uri /mnt/store/physical/kicad/relay/relay_1rt.lib)(options "")(descr ""))
+)

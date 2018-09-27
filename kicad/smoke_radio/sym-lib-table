@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Funk-eagle-import)(type Legacy)(uri ${KIPRJMOD}/Funk-eagle-import.lib)(options "")(descr ""))
+)

@@ -1,0 +1,26 @@
+update=Mi 26 Sep 2018 18:11:24 CEST
+last_client=kicad
+[cvpcb]
+version=1
+NetITyp=0
+NetIExt=.net
+PkgIExt=.pkg
+NetType=0
+[cvpcb/libraries]
+EquName1=devcms
+[common]
+NetDir=
+[pcbnew]
+[pcbnew/libraries]
+LibDir=/mnt/store/physical/kicad
+LibName1=../localstuff
+LibName2=../1wire
+LibName3=./funk-cache
+LibName4=supports
+LibName5=connect
+LibName6=discret
+LibName7=pin_array
+LibName8=divers
+[eeschema]
+version=1
+LibDir=

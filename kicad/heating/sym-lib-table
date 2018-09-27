@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Heizung-eagle-import)(type Legacy)(uri ${KIPRJMOD}/Heizung-eagle-import.lib)(options "")(descr ""))
+)

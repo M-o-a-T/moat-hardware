@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name rauchmelder-eagle-import)(type Legacy)(uri ${KIPRJMOD}/rauchmelder-eagle-import.lib)(options "")(descr ""))
+)

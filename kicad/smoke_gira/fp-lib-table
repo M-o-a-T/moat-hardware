@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Gira)(type KiCad)(uri "$(KIPRJMOD)/Gira.pretty")(options "")(descr ""))
+)

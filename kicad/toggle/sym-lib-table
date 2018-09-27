@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name toggle-rescue)(type Legacy)(uri ${KICAD_USER_TEMPLATE_DIR}/toggle/toggle-rescue.lib)(options "")(descr ""))
+)

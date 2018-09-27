@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name localstuff)(type Legacy)(uri /home/smurf/src/moat-hw/kicad/localstuff.lib)(options "")(descr ""))
+  (lib (name Temp-etc-rescue)(type Legacy)(uri ${KIPRJMOD}/Temp-etc-rescue.lib)(options "")(descr ""))
+)

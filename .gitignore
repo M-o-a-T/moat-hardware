@@ -1,9 +1,16 @@
 *.bak
 *.bck
 /out/
+/temp/
 .dep/
 *.swp
 *-cache.lib
 *-rescue.lib
 *.kicad_pcb-bak
+*.kicad_wks
 *.net
+*.lib
+*.mod
+*.dcm
+rescue-backup/
+kicad/*/*.pretty/

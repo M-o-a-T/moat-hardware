@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name TSSOP44-eagle-import)(type Legacy)(uri ${KIPRJMOD}/TSSOP44-eagle-import.lib)(options "")(descr ""))
+)
