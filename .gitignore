@@ -14,3 +14,4 @@
 *.dcm
 rescue-backup/
 kicad/*/*.pretty/
+fp-info-cache
