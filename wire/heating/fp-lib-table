@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Gira)(type KiCad)(uri /home/smurf/src/moat-hw/kicad/smoke_gira/Gira.pretty)(options "")(descr ""))
+)
