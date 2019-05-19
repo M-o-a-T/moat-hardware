@@ -1,4 +1,4 @@
-(module MoaT:AVX_9276_2Pin_HS (layer F.Cu) (tedit 59827860)
+(module AVX_9276_2Pin_HS (layer F.Cu) (tedit 5CE00EC5)
   (fp_text reference REF** (at 0 -5.6) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -17,4 +17,9 @@
   (pad 1 smd rect (at -1.25 -3.8) (size 1.2 2.3) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at -1.25 3.7) (size 1.5 2.1) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 1.25 3.7) (size 1.5 2.1) (layers F.Cu F.Paste F.Mask))
+  (model ${LOCAL3D}/9276-2.wrl
+    (offset (xyz -2.5 -4.7 0.01))
+    (scale (xyz 0.39 0.39 0.39))
+    (rotate (xyz -90 0 0))
+  )
 )
