@@ -1,0 +1,111 @@
+EESchema Schematic File Version 4
+LIBS:plug16-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L localstuff:Moat_Bus_wire J2
+U 1 1 5CC3E238
+P 4100 1950
+F 0 "J2" H 4100 2715 50  0000 C CNN
+F 1 "Moat_Bus_wire" H 4100 2624 50  0000 C CNN
+F 2 "localstuff:Molex_SlimStack_503772-24" H 4200 1150 50  0001 C CNN
+F 3 "" H 4150 2100 50  0001 C CNN
+F 4 "255-2411-1-ND " H 4100 2700 50  0001 C CNN "Digikey"
+F 5 "2614885" H 4100 1950 50  0001 C CNN "Farnell"
+	1    4100 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x12 J1
+U 1 1 5CE7EFE1
+P 3650 1900
+F 0 "J1" H 3568 2617 50  0000 C CNN
+F 1 "Conn_01x12" H 3568 2526 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical" H 3650 1900 50  0001 C CNN
+F 3 "~" H 3650 1900 50  0001 C CNN
+	1    3650 1900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x12 J3
+U 1 1 5CE8028E
+P 4550 1900
+F 0 "J3" H 4630 1892 50  0000 L CNN
+F 1 "Conn_01x12" H 4630 1801 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical" H 4550 1900 50  0001 C CNN
+F 3 "~" H 4550 1900 50  0001 C CNN
+	1    4550 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L localstuff:GND #PWR0101
+U 1 1 5CE86B29
+P 4200 2750
+F 0 "#PWR0101" H 4200 2500 50  0001 C CNN
+F 1 "GND" H 4205 2577 50  0000 C CNN
+F 2 "" H 4200 2750 50  0001 C CNN
+F 3 "" H 4200 2750 50  0001 C CNN
+	1    4200 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L localstuff:GND #PWR0102
+U 1 1 5CE86F1B
+P 3850 2500
+F 0 "#PWR0102" H 3850 2250 50  0001 C CNN
+F 1 "GND" H 3855 2327 50  0000 C CNN
+F 2 "" H 3850 2500 50  0001 C CNN
+F 3 "" H 3850 2500 50  0001 C CNN
+	1    3850 2500
+	1    0    0    -1  
+$EndComp
+Connection ~ 3850 2500
+$Comp
+L localstuff:GND #PWR0103
+U 1 1 5CE8743C
+P 4350 2500
+F 0 "#PWR0103" H 4350 2250 50  0001 C CNN
+F 1 "GND" H 4355 2327 50  0000 C CNN
+F 2 "" H 4350 2500 50  0001 C CNN
+F 3 "" H 4350 2500 50  0001 C CNN
+	1    4350 2500
+	1    0    0    -1  
+$EndComp
+Connection ~ 4350 2500
+$Comp
+L localstuff:GND #PWR0104
+U 1 1 5CE879AB
+P 4350 1400
+F 0 "#PWR0104" H 4350 1150 50  0001 C CNN
+F 1 "GND" H 4355 1227 50  0000 C CNN
+F 2 "" H 4350 1400 50  0001 C CNN
+F 3 "" H 4350 1400 50  0001 C CNN
+	1    4350 1400
+	-1   0    0    1   
+$EndComp
+Connection ~ 4350 1400
+$Comp
+L localstuff:GND #PWR0105
+U 1 1 5CE87FBA
+P 3850 1400
+F 0 "#PWR0105" H 3850 1150 50  0001 C CNN
+F 1 "GND" H 3855 1227 50  0000 C CNN
+F 2 "" H 3850 1400 50  0001 C CNN
+F 3 "" H 3850 1400 50  0001 C CNN
+	1    3850 1400
+	-1   0    0    1   
+$EndComp
+Connection ~ 3850 1400
+$EndSCHEMATC
