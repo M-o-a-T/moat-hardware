@@ -18,3 +18,4 @@ fp-info-cache
 _autosave-*.kicad_pcb
 _autosave-*.sch
 *-bak
+*.gbr
