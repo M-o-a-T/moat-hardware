@@ -1,4 +1,4 @@
-(module 2X3_PAD (layer F.Cu) (tedit 5CB709DF)
+(module 2X3_PAD (layer F.Cu) (tedit 5DB875B4)
   (descr "Programming pads")
   (fp_text reference U$3 (at -3.81 -3.175) (layer F.SilkS) hide
     (effects (font (size 1.2065 1.2065) (thickness 0.127)) (justify left bottom))
@@ -41,4 +41,9 @@
     (solder_mask_margin 0.1016))
   (pad 2 smd roundrect (at -2.54 -1.27 180) (size 1.524 1.524) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.5)
     (solder_mask_margin 0.1016))
+  (model :moat3d:pogo6.stp
+    (offset (xyz -3.5 2.5 3))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 90 0 0))
+  )
 )
