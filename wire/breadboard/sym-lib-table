@@ -1,3 +1,2 @@
 (sym_lib_table
-  (lib (name plug16-rescue)(type Legacy)(uri ${KIPRJMOD}/plug16-rescue.lib)(options "")(descr ""))
 )
