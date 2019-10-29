@@ -1218,7 +1218,7 @@ ENDDEF
 DEF Moat_Bus_device J 0 0 Y Y 1 F N
 F0 "J" 0 550 50 H V C CNN
 F1 "Moat_Bus_device" 0 -800 50 H V C CNN
-F2 "localstuff:Molex_SlimStack_503776-24" 0 -900 50 H I C CNN
+F2 "localstuff:TE_1775013_plug" 0 -900 50 H I C CNN
 F3 "" -150 1000 50 H I C CNN
 F4 "WM6257CT-ND " 0 650 50 H I C CNN "Digikey"
 F5 "2614881" 0 0 50 H I C CNN "Farnell"
