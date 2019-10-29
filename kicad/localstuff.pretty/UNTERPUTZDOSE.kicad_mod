@@ -20,7 +20,7 @@
   (fp_arc (start 0 28.5) (end 0 24.5) (angle 90) (layer Edge.Cuts) (width 0.1))
   (fp_arc (start 0 28.5) (end -4 28.5) (angle 90) (layer Edge.Cuts) (width 0.1))
   (fp_line (start -4 32) (end -4 28.5) (layer Edge.Cuts) (width 0.1))
-  (model ${LOCAL3D}/dose.wrl
+  (model :moat3d:dose.wrl
     (offset (xyz -69.5 148 -48.5))
     (scale (xyz 0.41 0.41 0.4))
     (rotate (xyz 0 0 90))

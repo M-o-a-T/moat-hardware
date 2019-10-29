@@ -29,7 +29,7 @@
   (pad 4 smd rect (at 1.25 3.7) (size 1.5 2.1) (layers F.Cu F.Paste F.Mask))
   (pad 5 smd rect (at 3.75 3.7) (size 1.5 2.1) (layers F.Cu F.Paste F.Mask))
   (pad 6 smd rect (at 6.25 3.7) (size 1.5 2.1) (layers F.Cu F.Paste F.Mask))
-  (model ${LOCAL3D}/9276-6.wrl
+  (model :moat3d:9276-6.wrl
     (offset (xyz -7.5 -4.7 0))
     (scale (xyz 0.39 0.39 0.39))
     (rotate (xyz -90 0 0))

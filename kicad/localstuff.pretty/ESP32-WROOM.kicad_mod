@@ -56,7 +56,7 @@
   (pad 39 smd oval (at 8 -6.71 180) (size 2.5 0.9) (layers F.Cu F.Paste F.Mask))
   (pad 36 smd oval (at 8 -7.98 180) (size 2.5 0.9) (layers F.Cu F.Paste F.Mask))
   (pad G3 smd oval (at 8 -9.25 180) (size 2.5 0.9) (layers F.Cu F.Paste F.Mask))
-  (model ${LOCAL3D}/KiCAD-ESP-WROOM-32.wrl
+  (model :moat3d:KiCAD-ESP-WROOM-32.wrl
     (offset (xyz -1 4 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 180))
