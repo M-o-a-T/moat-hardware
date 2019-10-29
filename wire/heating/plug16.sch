@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:plug16-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -49,69 +48,38 @@ Connection ~ 1100 1700
 Wire Wire Line
 	900  1200 1150 1200
 Wire Wire Line
-	1800 4350 1800 4750
-Wire Wire Line
-	1600 4350 1800 4350
-Wire Wire Line
-	1100 4350 1100 4750
-Wire Wire Line
-	1200 4350 1100 4350
-Wire Wire Line
-	1500 4950 1500 5150
-Wire Wire Line
-	1800 4950 1800 5050
-Wire Wire Line
 	1800 5050 1100 5050
-Wire Wire Line
-	1100 4950 1100 5050
 $Comp
-L plug16-rescue:2N7002-Heizung-eagle-import Q?
-U 1 1 5BB0A5D9
-P 2100 4850
-AR Path="/5BAE9B13/5BB0A5D9" Ref="Q?"  Part="1" 
-AR Path="/5BB0A5D9" Ref="Q2"  Part="1" 
-F 0 "Q2" H 1750 4950 59  0000 L BNN
-F 1 "2N7002" H 1750 4850 59  0000 L BNN
-F 2 "localstuff:SOT23" H 2100 4850 50  0001 C CNN
-F 3 "" H 2100 4850 50  0001 C CNN
-	1    2100 4850
-	-1   0    0    -1  
-$EndComp
-$Comp
-L plug16-rescue:2N7002-Heizung-eagle-import Q?
+L localstuff:2N7002 Q?
 U 1 1 5BB0A5E7
-P 1400 4850
+P 1200 4850
 AR Path="/5BAE9B13/5BB0A5E7" Ref="Q?"  Part="1" 
 AR Path="/5BB0A5E7" Ref="Q1"  Part="1" 
-F 0 "Q1" H 1050 4950 59  0000 L BNN
-F 1 "2N7002" H 1050 4850 59  0000 L BNN
-F 2 "localstuff:SOT23" H 1400 4850 50  0001 C CNN
-F 3 "" H 1400 4850 50  0001 C CNN
-	1    1400 4850
+F 0 "Q1" H 950 4900 59  0000 L BNN
+F 1 "2N7002" H 850 5000 59  0000 L BNN
+F 2 "localstuff:SOT23" H 1200 4850 50  0001 C CNN
+F 3 "" H 1200 4850 50  0001 C CNN
+	1    1200 4850
 	-1   0    0    -1  
 $EndComp
 $Comp
-L plug16-rescue:BAS40-05-Heizung-eagle-import D?
+L Diode:BAT54C D?
 U 1 1 5BB0A603
-P 1400 4350
+P 1450 4450
 AR Path="/5BAE9B13/5BB0A603" Ref="D?"  Part="1" 
 AR Path="/5BB0A603" Ref="D1"  Part="1" 
-F 0 "D1" H 1430 4429 59  0000 L BNN
-F 1 "BAS40-05" H 1230 4194 59  0000 L BNN
-F 2 "localstuff:SOT23" H 1400 4350 50  0001 C CNN
-F 3 "" H 1400 4350 50  0001 C CNN
-	1    1400 4350
-	1    0    0    -1  
+F 0 "D1" H 1480 4529 59  0000 L BNN
+F 1 "BAT54C" H 1100 4300 59  0000 L BNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 1450 4450 50  0001 C CNN
+F 3 "http://www.diodes.com/_files/datasheets/ds11005.pdf" H 1450 4450 50  0001 C CNN
+	1    1450 4450
+	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	2200 4950 2550 4950
-Wire Wire Line
-	1500 5150 2550 5150
 Wire Wire Line
 	1100 5050 1100 5250
 Connection ~ 1100 5050
 $Comp
-L plug16-rescue:GNDPWR-power1 #PWR019
+L localstuff:GNDPWR #PWR019
 U 1 1 5BB3C8C2
 P 1100 5250
 F 0 "#PWR019" H 1100 5050 50  0001 C CNN
@@ -203,8 +171,6 @@ Text Label 2750 1250 0    50   ~ 0
 S1
 Text Label 2550 5150 0    50   ~ 0
 S1
-Text Label 2550 4950 0    50   ~ 0
-S2
 $Comp
 L localstuff:Moat_Bus_16 J1
 U 1 1 5CBE90B4
@@ -293,7 +259,7 @@ Wire Wire Line
 Wire Wire Line
 	1500 1050 1550 1050
 Wire Wire Line
-	1550 1050 1550 1650
+	1550 1050 1550 1200
 Connection ~ 1550 1050
 Wire Wire Line
 	1550 1050 1600 1050
@@ -339,13 +305,12 @@ U 1 1 5CC3E238
 P 2500 1700
 F 0 "J2" H 2500 2465 50  0000 C CNN
 F 1 "Moat_Bus_wire" H 2500 2374 50  0000 C CNN
-F 2 "localstuff:Molex_SlimStack_503772-24" H 2600 900 50  0001 C CNN
+F 2 "localstuff:TE_1775014_socket" H 2600 900 50  0001 C CNN
 F 3 "" H 2550 1850 50  0001 C CNN
 F 4 "255-2411-1-ND " H 2500 2450 50  0001 C CNN "Digikey"
 	1    2500 1700
 	1    0    0    -1  
 $EndComp
-NoConn ~ 2750 1650
 NoConn ~ 2750 1750
 NoConn ~ 2750 1850
 NoConn ~ 2750 1950
@@ -354,8 +319,6 @@ NoConn ~ 2250 1450
 NoConn ~ 2250 1350
 NoConn ~ 900  800 
 NoConn ~ 900  900 
-Wire Wire Line
-	1400 4250 1300 4250
 Wire Wire Line
 	1300 4250 1300 3550
 Connection ~ 1300 3550
@@ -385,21 +348,13 @@ Wire Wire Line
 	1150 1750 2000 1750
 Connection ~ 1150 1200
 Wire Wire Line
-	1800 4350 1800 3450
-Wire Wire Line
 	900  3450 1800 3450
-Connection ~ 1800 4350
-Wire Wire Line
-	1100 4350 1100 3200
-Connection ~ 1100 4350
 Wire Wire Line
 	1100 3200 900  3200
 Wire Wire Line
 	2750 1350 2750 1300
 Wire Wire Line
 	2750 1300 1600 1300
-Wire Wire Line
-	1250 1300 1250 1400
 Wire Wire Line
 	1250 1400 900  1400
 $Comp
@@ -417,9 +372,6 @@ Wire Wire Line
 	2300 2750 1600 2750
 Wire Wire Line
 	1600 2750 1600 1300
-Connection ~ 1600 1300
-Wire Wire Line
-	1600 1300 1250 1300
 Wire Wire Line
 	2300 2650 1100 2650
 Connection ~ 1100 2650
@@ -432,4 +384,74 @@ Wire Wire Line
 Connection ~ 2000 1750
 Wire Wire Line
 	2000 1750 2250 1750
+Wire Wire Line
+	1800 3450 1800 4450
+Wire Wire Line
+	1100 3200 1100 4450
+Wire Wire Line
+	1500 5150 2550 5150
+Wire Wire Line
+	2100 4900 2550 4900
+$Comp
+L localstuff:2N7002 Q?
+U 1 1 5BB0A5D9
+P 1900 4850
+AR Path="/5BAE9B13/5BB0A5D9" Ref="Q?"  Part="1" 
+AR Path="/5BB0A5D9" Ref="Q2"  Part="1" 
+F 0 "Q2" H 1650 4900 59  0000 L BNN
+F 1 "2N7002" H 1550 5000 59  0000 L BNN
+F 2 "localstuff:SOT23" H 1900 4850 50  0001 C CNN
+F 3 "" H 1900 4850 50  0001 C CNN
+	1    1900 4850
+	-1   0    0    -1  
+$EndComp
+Text Label 2550 4900 0    50   ~ 0
+S2
+Wire Wire Line
+	1500 5150 1500 4900
+Wire Wire Line
+	1500 4900 1400 4900
+Wire Wire Line
+	1300 4250 1450 4250
+Wire Wire Line
+	1750 4450 1800 4450
+Connection ~ 1800 4450
+Wire Wire Line
+	1800 4450 1800 4650
+Wire Wire Line
+	1150 4450 1100 4450
+Connection ~ 1100 4450
+Wire Wire Line
+	1100 4450 1100 4650
+Wire Wire Line
+	1250 1400 1250 1450
+Wire Wire Line
+	1250 1450 1650 1450
+Wire Wire Line
+	1650 1450 1650 1600
+Wire Wire Line
+	1650 1600 1800 1600
+Wire Wire Line
+	2750 1600 2750 1650
+$Comp
+L localstuff:R R7
+U 1 1 5DBB42C0
+P 1700 1200
+F 0 "R7" V 1750 1350 50  0000 C CNN
+F 1 "470" V 1650 1350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 1700 1200 50  0001 C CNN
+F 3 "" H 1700 1200 50  0001 C CNN
+	1    1700 1200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1600 1200 1550 1200
+Connection ~ 1550 1200
+Wire Wire Line
+	1550 1200 1550 1650
+Wire Wire Line
+	1800 1200 1800 1600
+Connection ~ 1800 1600
+Wire Wire Line
+	1800 1600 2750 1600
 $EndSCHEMATC
