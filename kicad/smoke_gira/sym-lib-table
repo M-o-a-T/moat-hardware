@@ -1,4 +1,0 @@
-(sym_lib_table
-  (lib (name Gira-eagle-import)(type Legacy)(uri ${KIPRJMOD}/Gira-eagle-import.lib)(options "")(descr ""))
-  (lib (name ESP8266)(type Legacy)(uri /tmp/kicad-ESP8266/ESP8266.lib)(options "")(descr ""))
-)

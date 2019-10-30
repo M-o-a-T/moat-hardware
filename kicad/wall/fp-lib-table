@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name localstuff)(type KiCad)(uri /home/smurf/src/moat-hw/kicad/localstuff.pretty)(options "")(descr ""))
-)

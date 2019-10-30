@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name Stoffgeber-eagle-import)(type Legacy)(uri ${KIPRJMOD}/Stoffgeber-eagle-import.lib)(options "")(descr ""))
-)

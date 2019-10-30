@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name i2ctemp-eagle-import)(type Legacy)(uri ${KIPRJMOD}/i2ctemp-eagle-import.lib)(options "")(descr ""))
-)

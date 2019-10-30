@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name rauchmelder)(type KiCad)(uri "$(KIPRJMOD)/rauchmelder.pretty")(options "")(descr ""))
-)

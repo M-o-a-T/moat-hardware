@@ -1,4 +1,0 @@
-(sym_lib_table
-  (lib (name test-rescue)(type Legacy)(uri ${KIPRJMOD}/test-rescue.lib)(options "")(descr ""))
-  (lib (name kicad)(type Legacy)(uri /home/smurf/src/moat-hw/kicad.lib)(options "")(descr ""))
-)

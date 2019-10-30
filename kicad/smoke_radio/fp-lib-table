@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name Funk)(type KiCad)(uri "$(KIPRJMOD)/Funk.pretty")(options "")(descr ""))
-)

@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name Heizung)(type KiCad)(uri "$(KIPRJMOD)/Heizung.pretty")(options "")(descr ""))
-)

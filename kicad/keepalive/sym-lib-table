@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name keepalive-rescue)(type Legacy)(uri ${KICAD_USER_TEMPLATE_DIR}/keepalive/keepalive-rescue.lib)(options "")(descr ""))
-)

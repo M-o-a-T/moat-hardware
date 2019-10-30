@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name Stoffgeber)(type KiCad)(uri "$(KIPRJMOD)/Stoffgeber.pretty")(options "")(descr ""))
-)

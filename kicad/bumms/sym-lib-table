@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name Bumms-eagle-import)(type Legacy)(uri ${KIPRJMOD}/Bumms-eagle-import.lib)(options "")(descr ""))
-)

@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name funk-rescue)(type Legacy)(uri ${KICAD_USER_TEMPLATE_DIR}/funk/funk-rescue.lib)(options "")(descr ""))
-)

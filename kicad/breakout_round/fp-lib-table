@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name Breakout)(type KiCad)(uri "$(KIPRJMOD)/Breakout.pretty")(options "")(descr ""))
-)

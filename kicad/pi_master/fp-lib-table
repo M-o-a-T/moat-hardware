@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name PiMaster)(type KiCad)(uri "$(KIPRJMOD)/PiMaster.pretty")(options "")(descr ""))
-)
