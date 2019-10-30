@@ -1,4 +1,4 @@
-(module MoaT:Wago_Terminal_243 (layer F.Cu) (tedit 598449CD)
+(module Wago_Terminal_243 (layer F.Cu) (tedit 5DB9C344)
   (fp_text reference REF** (at 3.25 1.75) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
