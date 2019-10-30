@@ -1,4 +1,4 @@
-(module ESPBEE (layer F.Cu) (tedit 5CE6E98D)
+(module ESPBEE (layer F.Cu) (tedit 5DB988AB)
   (descr "Through hole straight pin header, 2x10, 2.00mm pitch, double rows")
   (tags "Through hole pin header THT 2x10 2.00mm double row")
   (fp_text reference REF** (at 11 -2.5) (layer F.SilkS)
@@ -53,8 +53,8 @@
   (pad 2 thru_hole oval (at 0 2) (size 1.35 1.35) (drill 0.8) (layers *.Cu *.Mask))
   (pad 20 thru_hole oval (at 22 0) (size 1.35 1.35) (drill 0.8) (layers *.Cu *.Mask))
   (pad 1 thru_hole rect (at 0 0) (size 1.35 1.35) (drill 0.8) (layers *.Cu *.Mask))
-  (model ${KISYS3DMOD}/Connector_PinHeader_2.00mm.3dshapes/PinHeader_2x10_P2.00mm_Vertical.wrl
-    (at (xyz 0 0 0))
+  (model :moat3d:ESPBee.stp
+    (offset (xyz 11 -6 3.7))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
