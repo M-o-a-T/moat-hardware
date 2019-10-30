@@ -2,23 +2,52 @@
 MoaT Hardware
 =============
 
-This is the new collection of files for the physical side of MoaT:
-Schematics and layouts (kicad), Enclosures (Blender).
+This is the collection of files for the physical side of MoaT:
+Schematics and layouts (kicad), Enclosures (OpenSCAD).
 
-Parts
-=====
 
-Servo
-+++++
+CPUs
+====
 
-A small interface to control two servos and/or up to three other signals.
+The ``proc/`` directory contains CPU boards, i.e. things that have a bus plug.
 
-The board has two standard servo plugs (GND/+5V/PWM) and three wired I/O
-ports. All five I/Os can also be used as digital output or as analog or
-digital input.
+CPUs are responsible for adapting 1wire (5V) and MoaTbus (12V) to their
+internal voltage.
 
-Since timing is not critical, the system will use the controller's built-in
-8 MHz clock.
+
+Boards
+======
+
+The ``board/`` directory contains everything that has a bus socket, i.e.
+interfaces to the Real World.
+
+Many of these boards have 12V-MoaTbus, 5V-1wire, and/or 3.3V-I2C connectors.
+
+The boards are not responsible for translating voltages to the (commonly)
+3.3V which CPUs expect.
+
+Breadboard
+++++++++++
+
+The most important part. Use this to test CPUs.
+
+Heating
++++++++
+
+This board has two transistors to switch one or two 24V radiator
+valves (PPM).
+
+Smoke detector
+++++++++++++++
+
+This board fits into a Gira Dual or Q smoke detector.
+
+
+Old stuff
+=========
+
+The ``old/`` directory contains things I need to clean up.
+
 
 License
 =======
@@ -29,8 +58,8 @@ This means: if you use any these files to build something which you sell or
 give to somebody else, you're required to make the schematics, layouts,
 design files, and source code of the resulting product available.
 
-Developing these devices is not cheap. Thus, while using all or part of
-this achive commercially is OK, their creators hereby humbly ask for
-adequate financial remuneration if you use any of these files for monetary
-gain. Thank you.
+Developing these devices takes time and money. Thus, while using all or
+part of this achive commercially is OK, their creators hereby humbly ask
+for adequate financial remuneration if you use any of these files for
+monetary gain. Thank you.
 
