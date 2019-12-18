@@ -1,5 +1,4 @@
-EESchema Schematic File Version 4
-LIBS:plug16-cache
+EESchema Schematic File Version 5
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -13,6 +12,11 @@ Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
+Comment5 ""
+Comment6 ""
+Comment7 ""
+Comment8 ""
+Comment9 ""
 $EndDescr
 Wire Wire Line
 	900  1000 1150 1000
@@ -84,7 +88,7 @@ L localstuff:GNDPWR #PWR019
 U 1 1 5BB3C8C2
 P 1100 5250
 F 0 "#PWR019" H 1100 5050 50  0001 C CNN
-F 1 "GNDPWR" H 1104 5324 50  0000 C CNN
+F 1 "GNDPWR" H 1150 5100 50  0000 C CNN
 F 2 "" H 1100 5200 50  0001 C CNN
 F 3 "" H 1100 5200 50  0001 C CNN
 	1    1100 5250
@@ -186,8 +190,6 @@ F 4 "478-6173-1-ND *2" H 700 1500 50  0001 C CNN "Digikey"
 $EndComp
 Connection ~ 1300 2000
 Wire Wire Line
-	1800 2700 900  2700
-Wire Wire Line
 	1850 2550 900  2550
 Wire Wire Line
 	900  2850 1900 2850
@@ -212,8 +214,6 @@ Wire Wire Line
 	2250 2200 2250 2250
 Wire Wire Line
 	2800 2200 2800 2250
-Wire Wire Line
-	2250 2250 1950 2250
 Connection ~ 1100 2250
 Wire Wire Line
 	1100 2250 1100 1900
@@ -272,12 +272,7 @@ Wire Wire Line
 Wire Wire Line
 	1450 1100 1450 1500
 Wire Wire Line
-	1950 2250 1950 1150
-Wire Wire Line
 	1950 1150 2250 1150
-Connection ~ 1950 2250
-Wire Wire Line
-	1950 2250 1100 2250
 Wire Wire Line
 	2250 1150 2250 1200
 Wire Wire Line
@@ -315,7 +310,6 @@ $EndComp
 NoConn ~ 2750 1750
 NoConn ~ 2750 1850
 NoConn ~ 2750 1950
-NoConn ~ 2750 2050
 NoConn ~ 2250 1450
 NoConn ~ 2250 1350
 NoConn ~ 900  800 
@@ -328,17 +322,13 @@ L localstuff:GNDPWR #PWR0103
 U 1 1 5CE2E0EA
 P 1250 2300
 F 0 "#PWR0103" H 1250 2100 50  0001 C CNN
-F 1 "GNDPWR" H 1254 2374 50  0000 C CNN
+F 1 "GNDPWR" H 1300 2150 50  0000 C CNN
 F 2 "" H 1250 2250 50  0001 C CNN
 F 3 "" H 1250 2250 50  0001 C CNN
 	1    1250 2300
 	1    0    0    -1  
 $EndComp
 Connection ~ 1250 2300
-Wire Wire Line
-	1800 2050 2250 2050
-Wire Wire Line
-	1800 2050 1800 2700
 Wire Wire Line
 	2250 1950 1850 1950
 Wire Wire Line
@@ -374,7 +364,7 @@ Wire Wire Line
 Wire Wire Line
 	1600 2750 1600 1300
 Wire Wire Line
-	2300 2650 1100 2650
+	2300 2650 2200 2650
 Connection ~ 1100 2650
 Wire Wire Line
 	1100 2650 1100 2250
@@ -455,4 +445,116 @@ Wire Wire Line
 Connection ~ 1800 1600
 Wire Wire Line
 	1800 1600 2750 1600
+$Comp
+L Connector_Generic:Conn_01x05 J7
+U 1 1 5DC9E3D3
+P 3400 2050
+F 0 "J7" H 3480 2092 50  0000 L CNN
+F 1 "Conn_01x05" H 3480 2001 50  0000 L CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x05_P2.00mm_Vertical" H 3400 2050 50  0001 C CNN
+F 3 "~" H 3400 2050 50  0001 C CNN
+	1    3400 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 1950 2850 1950
+Wire Wire Line
+	2850 1950 2850 2150
+Wire Wire Line
+	2850 2150 2750 2150
+Wire Wire Line
+	2750 2050 3000 2050
+Wire Wire Line
+	3000 2050 3000 2150
+Wire Wire Line
+	3000 2150 3200 2150
+Wire Wire Line
+	2250 2150 2250 2100
+Wire Wire Line
+	2250 2100 3200 2100
+Wire Wire Line
+	3200 2100 3200 2050
+Wire Wire Line
+	2200 2650 2200 2550
+Wire Wire Line
+	2200 2550 3050 2550
+Wire Wire Line
+	3050 2550 3050 1850
+Wire Wire Line
+	3050 1850 3200 1850
+Connection ~ 2200 2650
+Wire Wire Line
+	2200 2650 1100 2650
+Wire Wire Line
+	2250 1850 2250 1800
+Wire Wire Line
+	2250 1800 2950 1800
+Wire Wire Line
+	2950 1800 2950 2250
+Wire Wire Line
+	2950 2250 3200 2250
+Connection ~ 2250 1850
+Wire Wire Line
+	1100 2250 2250 2250
+Wire Wire Line
+	1950 1150 1950 1800
+Wire Wire Line
+	1100 1900 1750 1900
+Wire Wire Line
+	1850 1900 1850 1800
+Wire Wire Line
+	1850 1800 1950 1800
+Wire Wire Line
+	1950 2050 1950 2700
+Wire Wire Line
+	1950 2050 2250 2050
+Wire Wire Line
+	900  2700 1950 2700
+$Comp
+L power:GND #PWR0101
+U 1 1 5DFBF9CF
+P 1750 1900
+F 0 "#PWR0101" H 1750 1650 50  0001 C CNN
+F 1 "GND" H 1755 1727 50  0000 C CNN
+F 2 "" H 1750 1900 50  0001 C CNN
+F 3 "" H 1750 1900 50  0001 C CNN
+	1    1750 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+24V #PWR0102
+U 1 1 5DFC0133
+P 1450 4250
+F 0 "#PWR0102" H 1450 4100 50  0001 C CNN
+F 1 "+24V" H 1465 4423 50  0000 C CNN
+F 2 "" H 1450 4250 50  0001 C CNN
+F 3 "" H 1450 4250 50  0001 C CNN
+	1    1450 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0104
+U 1 1 5DFC5D9D
+P 1150 1000
+F 0 "#PWR0104" H 1150 850 50  0001 C CNN
+F 1 "+5V" H 1165 1173 50  0000 C CNN
+F 2 "" H 1150 1000 50  0001 C CNN
+F 3 "" H 1150 1000 50  0001 C CNN
+	1    1150 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR0105
+U 1 1 5DFC75F3
+P 1550 1050
+F 0 "#PWR0105" H 1550 900 50  0001 C CNN
+F 1 "+12V" H 1565 1223 50  0000 C CNN
+F 2 "" H 1550 1050 50  0001 C CNN
+F 3 "" H 1550 1050 50  0001 C CNN
+	1    1550 1050
+	1    0    0    -1  
+$EndComp
+Connection ~ 1750 1900
+Wire Wire Line
+	1750 1900 1850 1900
 $EndSCHEMATC

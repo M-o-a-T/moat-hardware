@@ -1,5 +1,4 @@
-EESchema Schematic File Version 4
-LIBS:plug16-cache
+EESchema Schematic File Version 5
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -13,6 +12,11 @@ Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
+Comment5 ""
+Comment6 ""
+Comment7 ""
+Comment8 ""
+Comment9 ""
 $EndDescr
 $Comp
 L localstuff:GND #PWR0110
@@ -47,17 +51,6 @@ F 1 "+24V" H 3265 1573 50  0000 C CNN
 F 2 "" H 3250 1400 50  0001 C CNN
 F 3 "" H 3250 1400 50  0001 C CNN
 	1    3250 1400
-	1    0    0    -1  
-$EndComp
-$Comp
-L localstuff:GND #PWR0114
-U 1 1 5DC0E98E
-P 3200 2300
-F 0 "#PWR0114" H 3200 2050 50  0001 C CNN
-F 1 "GND" H 3200 2150 50  0000 C CNN
-F 2 "" H 3200 2300 50  0001 C CNN
-F 3 "" H 3200 2300 50  0001 C CNN
-	1    3200 2300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -211,7 +204,6 @@ Wire Wire Line
 	2950 1150 2450 1150
 Wire Wire Line
 	2450 1150 2450 1200
-Connection ~ 2450 1200
 Wire Wire Line
 	2700 3050 3100 3050
 $Comp
@@ -311,6 +303,8 @@ $Comp
 L localstuff:Moat_Bus_device J1
 U 1 1 5DC0EA2D
 P 2700 1650
+AR Path="/5DC0EA2D" Ref="J1"  Part="1" 
+AR Path="/5DC034CA/5DC0EA2D" Ref="J1"  Part="1" 
 F 0 "J1" H 2700 2315 50  0000 C CNN
 F 1 "Moat_Bus_device" H 2700 2224 50  0000 C CNN
 F 2 "localstuff:TE_1775013_plug" H 2700 750 50  0001 C CNN
@@ -425,4 +419,17 @@ Text HLabel 3450 4800 0    50   Input ~ 0
 1wire
 Text HLabel 2200 1200 0    50   Input ~ 0
 GND
+$Comp
+L power:GNDPWR #PWR0128
+U 1 1 5E039BFC
+P 3200 2300
+F 0 "#PWR0128" H 3200 2100 50  0001 C CNN
+F 1 "GNDPWR" H 3204 2146 50  0000 C CNN
+F 2 "" H 3200 2250 50  0001 C CNN
+F 3 "" H 3200 2250 50  0001 C CNN
+	1    3200 2300
+	1    0    0    -1  
+$EndComp
+Text HLabel 3200 2300 2    50   Input ~ 0
+GNDPWR
 $EndSCHEMATC

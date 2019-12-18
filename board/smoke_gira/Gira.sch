@@ -1,5 +1,4 @@
-EESchema Schematic File Version 4
-LIBS:Gira-cache
+EESchema Schematic File Version 5
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -13,6 +12,11 @@ Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
+Comment5 ""
+Comment6 ""
+Comment7 ""
+Comment8 ""
+Comment9 ""
 $EndDescr
 Text Label 6600 2300 0    50   ~ 0
 GND
@@ -101,20 +105,6 @@ F 3 "~" H 7600 3950 50  0001 C CNN
 $EndComp
 Text Label 6100 2800 2    50   ~ 0
 Unk_2
-$Comp
-L localstuff:Moat_Bus_wire J1
-U 1 1 5DBB3B70
-P 5150 3500
-F 0 "J1" H 5150 4355 50  0000 C CNN
-F 1 "Moat_Bus_wire" H 5150 4264 50  0000 C CNN
-F 2 "localstuff:TE_1775014_socket" H 5250 2700 50  0001 C CNN
-F 3 "" H 5200 3650 50  0001 C CNN
-F 4 "A118067CT-ND" H 5150 4250 50  0001 C CNN "Digikey"
-F 5 "2971215" V 5150 3500 50  0001 C CNN "Farnell"
-F 6 "571-1775014-2" H 5150 4173 50  0000 C CNN "Mouser"
-	1    5150 3500
-	1    0    0    -1  
-$EndComp
 Text Label 6600 2400 0    50   ~ 0
 TxD
 Text Label 6600 2500 0    50   ~ 0
@@ -126,37 +116,15 @@ Unk_1
 Text Label 6600 2700 0    50   ~ 0
 3V3
 $Comp
-L localstuff:GND #PWR0101
-U 1 1 5DC1F6D6
-P 4900 4150
-F 0 "#PWR0101" H 4900 3900 50  0001 C CNN
-F 1 "GND" H 4905 3977 50  0000 C CNN
-F 2 "" H 4900 4150 50  0001 C CNN
-F 3 "" H 4900 4150 50  0001 C CNN
-	1    4900 4150
-	1    0    0    -1  
-$EndComp
-$Comp
 L localstuff:GND #PWR0102
 U 1 1 5DC1FCFC
-P 4750 2950
-F 0 "#PWR0102" H 4750 2700 50  0001 C CNN
-F 1 "GND" H 4755 2777 50  0000 C CNN
-F 2 "" H 4750 2950 50  0001 C CNN
-F 3 "" H 4750 2950 50  0001 C CNN
-	1    4750 2950
+P 4300 2950
+F 0 "#PWR0102" H 4300 2700 50  0001 C CNN
+F 1 "GND" H 4305 2777 50  0000 C CNN
+F 2 "" H 4300 2950 50  0001 C CNN
+F 3 "" H 4300 2950 50  0001 C CNN
+	1    4300 2950
 	1    0    0    -1  
-$EndComp
-$Comp
-L localstuff:+24V #PWR0103
-U 1 1 5DC20183
-P 4900 3350
-F 0 "#PWR0103" H 4900 3200 50  0001 C CNN
-F 1 "+24V" V 4915 3478 50  0000 L CNN
-F 2 "" H 4900 3350 50  0001 C CNN
-F 3 "" H 4900 3350 50  0001 C CNN
-	1    4900 3350
-	0    -1   -1   0   
 $EndComp
 $Comp
 L localstuff:+12V #PWR0104
@@ -207,16 +175,12 @@ Wire Wire Line
 	4900 4150 5400 4150
 Wire Wire Line
 	5400 4150 5400 4050
-Connection ~ 4900 4150
-Wire Wire Line
-	4900 2950 4750 2950
 Wire Wire Line
 	4900 2950 4900 2850
 Wire Wire Line
 	4900 2850 5400 2850
 Wire Wire Line
 	5400 2850 5400 2950
-Connection ~ 4900 2950
 Text Label 5400 3150 0    50   ~ 0
 1wire
 $Comp
@@ -418,4 +382,85 @@ F 3 "" H 7300 3100 50  0001 C CNN
 	1    7300 3100
 	0    -1   -1   0   
 $EndComp
+NoConn ~ 5400 3550
+$Comp
+L Connector_Generic:Conn_01x06 J4
+U 1 1 5DCD0F7A
+P 4650 2050
+F 0 "J4" V 4614 1662 50  0000 R CNN
+F 1 "Conn_01x06" V 4523 1662 50  0000 R CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 4650 2050 50  0001 C CNN
+F 3 "~" H 4650 2050 50  0001 C CNN
+	1    4650 2050
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4900 2950
+$Comp
+L localstuff:Moat_Bus_wire J1
+U 1 1 5DBB3B70
+P 5150 3500
+F 0 "J1" H 5150 4355 50  0000 C CNN
+F 1 "Moat_Bus_wire" H 5150 4264 50  0000 C CNN
+F 2 "localstuff:TE_1775014_socket" H 5250 2700 50  0001 C CNN
+F 3 "" H 5200 3650 50  0001 C CNN
+F 4 "A118067CT-ND" H 5150 4250 50  0001 C CNN "Digikey"
+F 5 "2971215" V 5150 3500 50  0001 C CNN "Farnell"
+F 6 "571-1775014-2" H 5150 4173 50  0000 C CNN "Mouser"
+	1    5150 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L localstuff:GND #PWR0103
+U 1 1 5DCD2302
+P 4450 2250
+F 0 "#PWR0103" H 4450 2000 50  0001 C CNN
+F 1 "GND" H 4455 2077 50  0000 C CNN
+F 2 "" H 4450 2250 50  0001 C CNN
+F 3 "" H 4450 2250 50  0001 C CNN
+	1    4450 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L localstuff:+3.3V #PWR0117
+U 1 1 5DCD2718
+P 4950 2250
+F 0 "#PWR0117" H 4950 2100 50  0001 C CNN
+F 1 "+3.3V" V 4965 2378 50  0000 L CNN
+F 2 "" H 4950 2250 50  0001 C CNN
+F 3 "" H 4950 2250 50  0001 C CNN
+	1    4950 2250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4300 2950 4900 2950
+Wire Wire Line
+	4900 3050 4650 3050
+Wire Wire Line
+	4650 3050 4650 2250
+Wire Wire Line
+	4900 3150 4850 3150
+Wire Wire Line
+	4850 3150 4850 2250
+Wire Wire Line
+	4750 2250 4750 3250
+Wire Wire Line
+	4750 3250 4900 3250
+Wire Wire Line
+	5400 3050 5400 3000
+Wire Wire Line
+	5400 3000 4550 3000
+Wire Wire Line
+	4550 3000 4550 2250
+$Comp
+L power:GNDPWR #PWR0101
+U 1 1 5E009F61
+P 4900 4150
+F 0 "#PWR0101" H 4900 3950 50  0001 C CNN
+F 1 "GNDPWR" H 4904 3996 50  0000 C CNN
+F 2 "" H 4900 4100 50  0001 C CNN
+F 3 "" H 4900 4100 50  0001 C CNN
+	1    4900 4150
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4900 3350
 $EndSCHEMATC

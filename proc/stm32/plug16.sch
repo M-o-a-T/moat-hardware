@@ -1,0 +1,471 @@
+EESchema Schematic File Version 5
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+Comment5 ""
+Comment6 ""
+Comment7 ""
+Comment8 ""
+Comment9 ""
+$EndDescr
+$Comp
+L localstuff:C C2
+U 1 1 5BAEABAB
+P 5350 1450
+F 0 "C2" H 5375 1550 50  0000 L CNN
+F 1 "100nF" H 5375 1350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5388 1300 50  0001 C CNN
+F 3 "" H 5350 1450 50  0001 C CNN
+	1    5350 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L localstuff:GND #PWR02
+U 1 1 5BAEABCC
+P 5350 1850
+F 0 "#PWR02" H 5350 1600 50  0001 C CNN
+F 1 "GND" H 5350 1700 50  0000 C CNN
+F 2 "" H 5350 1850 50  0001 C CNN
+F 3 "" H 5350 1850 50  0001 C CNN
+	1    5350 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 1600 5350 1700
+Wire Wire Line
+	5350 1100 5350 1200
+Wire Wire Line
+	5750 1300 5750 1200
+Wire Wire Line
+	5750 1200 5350 1200
+Connection ~ 5350 1200
+Wire Wire Line
+	5750 1600 5750 1700
+Wire Wire Line
+	5750 1700 5350 1700
+Connection ~ 5350 1700
+$Comp
+L localstuff:+3.3V #PWR012
+U 1 1 5BAEAC38
+P 7050 2650
+F 0 "#PWR012" H 7050 2500 50  0001 C CNN
+F 1 "+3.3V" H 7050 2790 50  0000 C CNN
+F 2 "" H 7050 2650 50  0001 C CNN
+F 3 "" H 7050 2650 50  0001 C CNN
+	1    7050 2650
+	1    0    0    -1  
+$EndComp
+Text Label 6550 4950 2    50   ~ 0
+Bus1
+Text Label 6550 5050 2    50   ~ 0
+Bus2
+$Comp
+L localstuff:GND #PWR011
+U 1 1 5BAEAC6D
+P 6400 3150
+F 0 "#PWR011" H 6400 2900 50  0001 C CNN
+F 1 "GND" H 6400 3000 50  0000 C CNN
+F 2 "" H 6400 3150 50  0001 C CNN
+F 3 "" H 6400 3150 50  0001 C CNN
+	1    6400 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L localstuff:CP C4
+U 1 1 5BAEAC7E
+P 5900 2900
+F 0 "C4" H 5925 3000 50  0000 L CNN
+F 1 "10µF" H 5925 2800 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 5938 2750 50  0001 C CNN
+F 3 "" H 5900 2900 50  0001 C CNN
+	1    5900 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 1200 5350 1300
+Wire Wire Line
+	5350 1700 5350 1850
+$Comp
+L localstuff:+3.3V #PWR01
+U 1 1 5BAEABC0
+P 5350 1100
+F 0 "#PWR01" H 5350 950 50  0001 C CNN
+F 1 "+3.3V" H 5350 1240 50  0000 C CNN
+F 2 "" H 5350 1100 50  0001 C CNN
+F 3 "" H 5350 1100 50  0001 C CNN
+	1    5350 1100
+	1    0    0    -1  
+$EndComp
+Text Label 8000 3900 0    50   ~ 0
+GND
+Text Label 8000 4000 0    50   ~ 0
+GND
+$Comp
+L localstuff:PogoPad Prog1
+U 1 1 5CD22721
+P 8800 3850
+F 0 "Prog1" H 8672 3878 60  0000 R CNN
+F 1 "PogoPad" H 8672 3772 60  0000 R CNN
+F 2 "localstuff:2X3_PAD" H 8800 3900 60  0001 C CNN
+F 3 "" H 8800 3900 60  0001 C CNN
+	1    8800 3850
+	-1   0    0    -1  
+$EndComp
+Text Label 8500 3950 2    50   ~ 0
+EN
+Text Label 7650 4250 0    50   ~ 0
+Tx2
+Text Label 7650 4350 0    50   ~ 0
+Rx2
+Text Label 6550 5450 2    50   ~ 0
+SCLx
+Text Label 6550 5550 2    50   ~ 0
+SDAx
+$Comp
+L localstuff:+3.3V #PWR015
+U 1 1 5CC55135
+P 8800 3400
+F 0 "#PWR015" H 8800 3250 50  0001 C CNN
+F 1 "+3.3V" H 8800 3540 50  0000 C CNN
+F 2 "" H 8800 3400 50  0001 C CNN
+F 3 "" H 8800 3400 50  0001 C CNN
+	1    8800 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L localstuff:GND #PWR016
+U 1 1 5CC61BAE
+P 8800 4350
+F 0 "#PWR016" H 8800 4100 50  0001 C CNN
+F 1 "GND" H 8800 4200 50  0000 C CNN
+F 2 "" H 8800 4350 50  0001 C CNN
+F 3 "" H 8800 4350 50  0001 C CNN
+	1    8800 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 2650 6650 2650
+$Comp
+L localstuff:CP C5
+U 1 1 5CC29F64
+P 6650 2900
+F 0 "C5" H 6768 2946 50  0000 L CNN
+F 1 "22µF" H 6768 2855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6688 2750 50  0001 C CNN
+F 3 "~" H 6650 2900 50  0001 C CNN
+	1    6650 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 2750 6650 2650
+Connection ~ 6650 2650
+Wire Wire Line
+	6650 2650 7050 2650
+Wire Wire Line
+	6650 3050 6400 3050
+Connection ~ 6400 3050
+Wire Wire Line
+	6400 3050 6400 3150
+Wire Wire Line
+	5900 3050 6250 3050
+Text Label 7650 4950 0    50   ~ 0
+Tx
+Text Label 7650 5050 0    50   ~ 0
+Rx
+Text Label 6550 5150 2    50   ~ 0
+Bus3
+Text Label 6550 5250 2    50   ~ 0
+Bus4
+$Comp
+L localstuff:+3.3V #PWR013
+U 1 1 5CF0CD32
+P 7150 3700
+F 0 "#PWR013" H 7150 3550 50  0001 C CNN
+F 1 "+3.3V" H 7150 3840 50  0000 C CNN
+F 2 "" H 7150 3700 50  0001 C CNN
+F 3 "" H 7150 3700 50  0001 C CNN
+	1    7150 3700
+	1    0    0    -1  
+$EndComp
+Text Label 8500 4100 2    50   ~ 0
+Boot0
+Text Label 8500 3650 2    50   ~ 0
+Tx
+Text Label 8500 3800 2    50   ~ 0
+Rx
+$Sheet
+S 4450 4200 1150 1450
+U 5DC034CA
+F0 "Common bus interface" 50
+F1 "common.sch" 50
+F2 "Rx" I L 4450 4850 50 
+F3 "Tx" I L 4450 4750 50 
+F4 "Bus2" I L 4450 4400 50 
+F5 "Bus1" I L 4450 4300 50 
+F6 "Bus3" I L 4450 4500 50 
+F7 "Bus4" I L 4450 4600 50 
+F8 "Tx2" I L 4450 5000 50 
+F9 "Rx2" I L 4450 5100 50 
+F10 "T3" I R 5600 4750 50 
+F11 "T1" I R 5600 4550 50 
+F12 "T2" I R 5600 4650 50 
+F13 "SDa" I L 4450 5250 50 
+F14 "SCl" I L 4450 5350 50 
+F15 "3v3" I R 5600 4900 50 
+F16 "5v" I R 5600 5050 50 
+F17 "12v" I R 5600 5200 50 
+F18 "24v" I R 5600 5350 50 
+F19 "Sw2" I R 5600 4400 50 
+F20 "Sw1" I R 5600 4300 50 
+F21 "1wire" I L 4450 5450 50 
+F22 "GND" I R 5600 5500 50 
+F23 "GNDPWR" I R 5600 5600 50 
+$EndSheet
+$Comp
+L localstuff:GND #PWR014
+U 1 1 5CE57D0B
+P 7250 5750
+F 0 "#PWR014" H 7250 5500 50  0001 C CNN
+F 1 "GND" H 7255 5577 50  0000 C CNN
+F 2 "" H 7250 5750 50  0001 C CNN
+F 3 "" H 7250 5750 50  0001 C CNN
+	1    7250 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5CE56D13
+P 6100 4400
+F 0 "R1" H 6170 4446 50  0000 L CNN
+F 1 "100k" H 6170 4355 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6030 4400 50  0001 C CNN
+F 3 "~" H 6100 4400 50  0001 C CNN
+	1    6100 4400
+	1    0    0    -1  
+$EndComp
+Text Label 4450 5450 2    50   ~ 0
+1wire
+Text Label 4450 5350 2    50   ~ 0
+SCLx
+Text Label 4450 5250 2    50   ~ 0
+SDAx
+Text Label 5600 4400 0    50   ~ 0
+SW2
+Text Label 5600 4300 0    50   ~ 0
+SW1
+Text Label 5600 4550 0    50   ~ 0
+T1
+Text Label 5600 4650 0    50   ~ 0
+T2
+Text Label 5600 4750 0    50   ~ 0
+T3
+$Comp
+L localstuff:+3.3V #PWR03
+U 1 1 5DC57E78
+P 5600 4900
+F 0 "#PWR03" H 5600 4750 50  0001 C CNN
+F 1 "+3.3V" V 5615 5028 50  0000 L CNN
+F 2 "" H 5600 4900 50  0001 C CNN
+F 3 "" H 5600 4900 50  0001 C CNN
+	1    5600 4900
+	0    1    1    0   
+$EndComp
+$Comp
+L localstuff:+5V #PWR04
+U 1 1 5DC58405
+P 5600 5050
+F 0 "#PWR04" H 5600 4900 50  0001 C CNN
+F 1 "+5V" V 5615 5178 50  0000 L CNN
+F 2 "" H 5600 5050 50  0001 C CNN
+F 3 "" H 5600 5050 50  0001 C CNN
+	1    5600 5050
+	0    1    1    0   
+$EndComp
+$Comp
+L localstuff:+12V #PWR05
+U 1 1 5DC58B90
+P 5600 5200
+F 0 "#PWR05" H 5600 5050 50  0001 C CNN
+F 1 "+12V" V 5615 5328 50  0000 L CNN
+F 2 "" H 5600 5200 50  0001 C CNN
+F 3 "" H 5600 5200 50  0001 C CNN
+	1    5600 5200
+	0    1    1    0   
+$EndComp
+$Comp
+L localstuff:+24V #PWR06
+U 1 1 5DC59115
+P 5600 5350
+F 0 "#PWR06" H 5600 5200 50  0001 C CNN
+F 1 "+24V" V 5615 5478 50  0000 L CNN
+F 2 "" H 5600 5350 50  0001 C CNN
+F 3 "" H 5600 5350 50  0001 C CNN
+	1    5600 5350
+	0    1    1    0   
+$EndComp
+$Comp
+L localstuff:GND #PWR07
+U 1 1 5DC596F0
+P 5600 5500
+F 0 "#PWR07" H 5600 5250 50  0001 C CNN
+F 1 "GND" V 5605 5372 50  0000 R CNN
+F 2 "" H 5600 5500 50  0001 C CNN
+F 3 "" H 5600 5500 50  0001 C CNN
+	1    5600 5500
+	0    -1   -1   0   
+$EndComp
+Text Label 4450 4300 2    50   ~ 0
+Bus1
+Text Label 4450 4400 2    50   ~ 0
+Bus2
+Text Label 4450 4600 2    50   ~ 0
+Bus4
+Text Label 4450 4500 2    50   ~ 0
+Bus3
+Text Label 4450 4850 2    50   ~ 0
+Rx
+Text Label 4450 4750 2    50   ~ 0
+Tx
+Text Label 4450 5000 2    50   ~ 0
+Tx2
+Text Label 4450 5100 2    50   ~ 0
+Rx2
+$Comp
+L MCU_ST_STM32L0:STM32L051K8Tx U2
+U 1 1 5DC89052
+P 7150 4750
+F 0 "U2" H 7100 3661 50  0000 C CNN
+F 1 "STM32L051K8Tx" H 6850 3550 50  0000 C CNN
+F 2 "Package_QFP:LQFP-32_7x7mm_P0.8mm" H 6650 3850 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00108219.pdf" H 7150 4750 50  0001 C CNN
+	1    7150 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 5750 7150 5750
+Connection ~ 7150 5750
+Wire Wire Line
+	7150 5750 7050 5750
+Wire Wire Line
+	7050 3850 7150 3850
+Connection ~ 7150 3850
+Wire Wire Line
+	7150 3850 7250 3850
+Wire Wire Line
+	7150 3850 7150 3700
+Text Label 6550 4250 2    50   ~ 0
+Boot0
+Text Label 6550 4050 2    50   ~ 0
+EN
+$Comp
+L Regulator_Linear:MCP1703A-3302_SOT23 U1
+U 1 1 5DC940E9
+P 6250 2650
+F 0 "U1" H 6250 2892 50  0000 C CNN
+F 1 "MCP1703A-3302_SOT23" H 6250 2801 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6250 2850 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20005122B.pdf" H 6250 2600 50  0001 C CNN
+	1    6250 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 2500 5900 2650
+Wire Wire Line
+	6250 2950 6250 3050
+Connection ~ 6250 3050
+Wire Wire Line
+	6250 3050 6400 3050
+Wire Wire Line
+	5950 2650 5900 2650
+Connection ~ 5900 2650
+Wire Wire Line
+	5900 2650 5900 2750
+$Comp
+L localstuff:GND #PWR010
+U 1 1 5DCA1D82
+P 6100 4550
+F 0 "#PWR010" H 6100 4300 50  0001 C CNN
+F 1 "GND" H 6100 4400 50  0000 C CNN
+F 2 "" H 6100 4550 50  0001 C CNN
+F 3 "" H 6100 4550 50  0001 C CNN
+	1    6100 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 4250 6550 4250
+Text Label 7650 4150 0    50   ~ 0
+SW2
+Text Label 7650 4050 0    50   ~ 0
+SW1
+Text Label 7650 4550 0    50   ~ 0
+T1
+Text Label 7650 4650 0    50   ~ 0
+T2
+Text Label 7650 4750 0    50   ~ 0
+T3
+Text Label 7650 4450 0    50   ~ 0
+1wire
+$Comp
+L localstuff:CP C3
+U 1 1 5DCD465C
+P 5750 1450
+F 0 "C3" H 5775 1550 50  0000 L CNN
+F 1 "10µF" H 5775 1350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 5788 1300 50  0001 C CNN
+F 3 "" H 5750 1450 50  0001 C CNN
+	1    5750 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L localstuff:+5V #PWR09
+U 1 1 5DCD93B5
+P 5900 2500
+F 0 "#PWR09" H 5900 2350 50  0001 C CNN
+F 1 "+5V" H 5915 2673 50  0000 C CNN
+F 2 "" H 5900 2500 50  0001 C CNN
+F 3 "" H 5900 2500 50  0001 C CNN
+	1    5900 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L localstuff:C C1
+U 1 1 5DD291DB
+P 4900 1450
+F 0 "C1" H 4925 1550 50  0000 L CNN
+F 1 "100nF" H 4925 1350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4938 1300 50  0001 C CNN
+F 3 "" H 4900 1450 50  0001 C CNN
+	1    4900 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 1200 4900 1200
+Wire Wire Line
+	4900 1200 4900 1300
+Wire Wire Line
+	4900 1600 4900 1700
+Wire Wire Line
+	4900 1700 5350 1700
+NoConn ~ 6550 5350
+$Comp
+L power:GNDPWR #PWR08
+U 1 1 5E04809C
+P 5600 5600
+F 0 "#PWR08" H 5600 5400 50  0001 C CNN
+F 1 "GNDPWR" V 5605 5492 50  0000 R CNN
+F 2 "" H 5600 5550 50  0001 C CNN
+F 3 "" H 5600 5550 50  0001 C CNN
+	1    5600 5600
+	0    -1   -1   0   
+$EndComp
+$EndSCHEMATC

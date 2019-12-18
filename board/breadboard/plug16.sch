@@ -1,6 +1,5 @@
-EESchema Schematic File Version 4
-LIBS:plug16-cache
-EELAYER 29 0
+EESchema Schematic File Version 5
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -13,6 +12,11 @@ Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
+Comment5 ""
+Comment6 ""
+Comment7 ""
+Comment8 ""
+Comment9 ""
 $EndDescr
 $Comp
 L localstuff:Moat_Bus_wire J2
@@ -20,7 +24,7 @@ U 1 1 5CC3E238
 P 4100 1950
 F 0 "J2" H 4100 2715 50  0000 C CNN
 F 1 "Moat_Bus_wire" H 4100 2624 50  0000 C CNN
-F 2 "localstuff:Molex_SlimStack_503772-24" H 4200 1150 50  0001 C CNN
+F 2 "localstuff:TE_1775014_socket" H 4200 1150 50  0001 C CNN
 F 3 "" H 4150 2100 50  0001 C CNN
 F 4 "255-2411-1-ND " H 4100 2700 50  0001 C CNN "Digikey"
 F 5 "2614885" H 4100 1950 50  0001 C CNN "Farnell"
@@ -61,30 +65,6 @@ F 3 "" H 4200 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L localstuff:GND #PWR0102
-U 1 1 5CE86F1B
-P 3850 2500
-F 0 "#PWR0102" H 3850 2250 50  0001 C CNN
-F 1 "GND" H 3855 2327 50  0000 C CNN
-F 2 "" H 3850 2500 50  0001 C CNN
-F 3 "" H 3850 2500 50  0001 C CNN
-	1    3850 2500
-	1    0    0    -1  
-$EndComp
-Connection ~ 3850 2500
-$Comp
-L localstuff:GND #PWR0103
-U 1 1 5CE8743C
-P 4350 2500
-F 0 "#PWR0103" H 4350 2250 50  0001 C CNN
-F 1 "GND" H 4355 2327 50  0000 C CNN
-F 2 "" H 4350 2500 50  0001 C CNN
-F 3 "" H 4350 2500 50  0001 C CNN
-	1    4350 2500
-	1    0    0    -1  
-$EndComp
-Connection ~ 4350 2500
-$Comp
 L localstuff:GND #PWR0104
 U 1 1 5CE879AB
 P 4350 1400
@@ -108,4 +88,28 @@ F 3 "" H 3850 1400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Connection ~ 3850 1400
+$Comp
+L power:GNDPWR #PWR0102
+U 1 1 5DFA3E70
+P 4350 2500
+F 0 "#PWR0102" H 4350 2300 50  0001 C CNN
+F 1 "GNDPWR" H 4450 2350 50  0000 C CNN
+F 2 "" H 4350 2450 50  0001 C CNN
+F 3 "" H 4350 2450 50  0001 C CNN
+	1    4350 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR0103
+U 1 1 5DFA4729
+P 3850 2500
+F 0 "#PWR0103" H 3850 2300 50  0001 C CNN
+F 1 "GNDPWR" H 3750 2350 50  0000 C CNN
+F 2 "" H 3850 2450 50  0001 C CNN
+F 3 "" H 3850 2450 50  0001 C CNN
+	1    3850 2500
+	1    0    0    -1  
+$EndComp
+Connection ~ 3850 2500
+Connection ~ 4350 2500
 $EndSCHEMATC

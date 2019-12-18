@@ -1,5 +1,4 @@
-EESchema Schematic File Version 4
-LIBS:plug16-cache
+EESchema Schematic File Version 5
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -13,6 +12,11 @@ Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
+Comment5 ""
+Comment6 ""
+Comment7 ""
+Comment8 ""
+Comment9 ""
 $EndDescr
 $Comp
 L localstuff:+3.3V #PWR015
@@ -217,7 +221,7 @@ Bus3
 Text Label 8450 2350 2    50   ~ 0
 Bus4
 $Sheet
-S 6500 1600 1150 1350
+S 6500 1600 1150 1450
 U 5DC034CA
 F0 "Common bus interface" 50
 F1 "common.sch" 50
@@ -242,6 +246,7 @@ F19 "Sw2" I R 7650 1800 50
 F20 "Sw1" I R 7650 1700 50 
 F21 "1wire" I L 6500 2850 50 
 F22 "GND" I R 7650 2900 50 
+F23 "GNDPWR" I R 7650 3000 50 
 $EndSheet
 Text Label 6500 1900 2    50   ~ 0
 Bus3
@@ -346,6 +351,61 @@ F 1 "GND" H 10205 2577 50  0000 C CNN
 F 2 "" H 10200 2750 50  0001 C CNN
 F 3 "" H 10200 2750 50  0001 C CNN
 	1    10200 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR0114
+U 1 1 5E03AF1C
+P 7650 3000
+F 0 "#PWR0114" H 7650 2800 50  0001 C CNN
+F 1 "GNDPWR" V 7655 2892 50  0000 R CNN
+F 2 "" H 7650 2950 50  0001 C CNN
+F 3 "" H 7650 2950 50  0001 C CNN
+	1    7650 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:BAT54S D1
+U 1 1 5E03D221
+P 10000 4950
+F 0 "D1" H 10000 5175 50  0000 C CNN
+F 1 "BAT54S" H 10000 5084 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 10075 5075 50  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds11005.pdf" H 9880 4950 50  0001 C CNN
+	1    10000 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR0125
+U 1 1 5E03DFF2
+P 10000 5150
+F 0 "#PWR0125" H 10000 4950 50  0001 C CNN
+F 1 "GNDPWR" H 10004 4996 50  0000 C CNN
+F 2 "" H 10000 5100 50  0001 C CNN
+F 3 "" H 10000 5100 50  0001 C CNN
+	1    10000 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L localstuff:GND #PWR0126
+U 1 1 5E040D06
+P 9700 4950
+F 0 "#PWR0126" H 9700 4700 50  0001 C CNN
+F 1 "GND" H 9700 4800 50  0000 C CNN
+F 2 "" H 9700 4950 50  0001 C CNN
+F 3 "" H 9700 4950 50  0001 C CNN
+	1    9700 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L localstuff:GND #PWR0127
+U 1 1 5E042BE1
+P 10300 4950
+F 0 "#PWR0127" H 10300 4700 50  0001 C CNN
+F 1 "GND" H 10300 4800 50  0000 C CNN
+F 2 "" H 10300 4950 50  0001 C CNN
+F 3 "" H 10300 4950 50  0001 C CNN
+	1    10300 4950
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
