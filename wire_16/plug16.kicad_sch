@@ -761,7 +761,7 @@
     (uuid 00000000-0000-0000-0000-00005cbe90b4)
     (property "Reference" "J1" (id 0) (at 16.1798 14.605 0))
     (property "Value" "Moat_Wire_16" (id 1) (at 16.1798 16.9164 0))
-    (property "Footprint" "localstuff:Moat_16_2side" (id 2) (at 17.78 63.5 0)
+    (property "Footprint" "localstuff:Moat_16_2side_HSF" (id 2) (at 17.78 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 17.78 38.1 0)
@@ -797,7 +797,7 @@
     (property "Value" "Moat_Wire_12" (id 1) (at 64.9732 70.0278 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "localstuff:Moat8-Solder" (id 2) (at 68.58 63.5 0)
+    (property "Footprint" "localstuff:MoaT_12_Pin_H" (id 2) (at 68.58 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 45.72 67.31 0)
@@ -823,10 +823,10 @@
 
   (symbol_instances
     (path "/00000000-0000-0000-0000-00005cbe90b4"
-      (reference "J1") (unit 1) (value "Moat_Wire_16") (footprint "localstuff:Moat_16_2side")
+      (reference "J1") (unit 1) (value "Moat_Wire_16") (footprint "localstuff:Moat_16_2side_HSF")
     )
     (path "/00000000-0000-0000-0000-0000612c2531"
-      (reference "J2") (unit 1) (value "Moat_Wire_12") (footprint "localstuff:Moat8-Solder")
+      (reference "J2") (unit 1) (value "Moat_Wire_12") (footprint "localstuff:MoaT_12_Pin_H")
     )
   )
 )

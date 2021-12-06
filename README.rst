@@ -5,6 +5,19 @@ MoaT Hardware
 This is the collection of files for the physical side of MoaT:
 Schematics and layouts (kicad), Enclosures (OpenSCAD).
 
+++++++++++++++++
+Up-to-date stuff
+++++++++++++++++
+
+Wire_16
++++++++
+
+Connect a 16-wire cable to a baseboard.
+
+
++++++++++
+Old stuff
++++++++++
 
 CPUs
 ====
