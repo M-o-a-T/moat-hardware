@@ -4,6 +4,7 @@
 /temp/
 .dep/
 *.swp
+*-backups/
 *-cache.lib
 *-rescue.lib
 *.kicad_pcb-bak
