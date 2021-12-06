@@ -1,0 +1,428 @@
+EESchema Schematic File Version 5
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+Comment5 ""
+Comment6 ""
+Comment7 ""
+Comment8 ""
+Comment9 ""
+$EndDescr
+$Comp
+L localstuff:R R5
+U 1 1 5CD000B0
+P 1050 2850
+F 0 "R5" V 1050 2500 50  0000 C CNN
+F 1 "470" V 1050 2650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 1050 2850 50  0001 C CNN
+F 3 "" H 1050 2850 50  0001 C CNN
+	1    1050 2850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3350 1600 3350 1550
+Wire Wire Line
+	3350 1500 3350 1450
+NoConn ~ 3350 1800
+NoConn ~ 2850 1500
+NoConn ~ 2850 1400
+Wire Wire Line
+	3350 1400 3350 1350
+$Comp
+L localstuff:1wireConn J10
+U 1 1 5CFBEEC8
+P 2350 2650
+F 0 "J10" H 2769 2601 50  0000 L CNN
+F 1 "1wireConn" H 2769 2510 50  0000 L CNN
+F 2 "localstuff:AVX_9276_3Pin" H 2350 2650 50  0001 C CNN
+F 3 "" H 2350 2650 50  0001 C CNN
+	1    2350 2650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3350 1650 3350 1700
+$Comp
+L localstuff:R R7
+U 1 1 5DBB42C0
+P 1050 3000
+F 0 "R7" V 1050 2650 50  0000 C CNN
+F 1 "470" V 1050 2800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 1050 3000 50  0001 C CNN
+F 3 "" H 1050 3000 50  0001 C CNN
+	1    1050 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L localstuff:Conn_I2C J3
+U 1 1 5DC068C1
+P 1750 2850
+F 0 "J3" H 2000 2850 50  0000 C CNN
+F 1 "I2C" H 2000 2750 50  0000 C CNN
+F 2 "localstuff:AVX_9276_4Pin_HS" H 1750 2850 50  0001 C CNN
+F 3 "~" H 1750 2850 50  0001 C CNN
+	1    1750 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L localstuff:+3.3V #PWR0104
+U 1 1 5DC22728
+P 1950 850
+F 0 "#PWR0104" H 1950 700 50  0001 C CNN
+F 1 "+3.3V" H 1965 1023 50  0000 C CNN
+F 2 "" H 1950 850 50  0001 C CNN
+F 3 "" H 1950 850 50  0001 C CNN
+	1    1950 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L localstuff:GND #PWR0106
+U 1 1 5DC23157
+P 2100 750
+F 0 "#PWR0106" H 2100 500 50  0001 C CNN
+F 1 "GND" H 2105 577 50  0000 C CNN
+F 2 "" H 2100 750 50  0001 C CNN
+F 3 "" H 2100 750 50  0001 C CNN
+	1    2100 750 
+	-1   0    0    1   
+$EndComp
+$Comp
+L localstuff:GNDPWR #PWR0103
+U 1 1 5CE2E0EA
+P 2250 850
+F 0 "#PWR0103" H 2250 650 50  0001 C CNN
+F 1 "GNDPWR" H 2150 700 50  0000 C CNN
+F 2 "" H 2250 800 50  0001 C CNN
+F 3 "" H 2250 800 50  0001 C CNN
+	1    2250 850 
+	-1   0    0    1   
+$EndComp
+$Comp
+L localstuff:R R6
+U 1 1 5CD009C5
+P 1050 2700
+F 0 "R6" V 1050 2350 50  0000 C CNN
+F 1 "470" V 1050 2500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 1050 2700 50  0001 C CNN
+F 3 "" H 1050 2700 50  0001 C CNN
+	1    1050 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L localstuff:+12V #PWR0101
+U 1 1 5DC21D50
+P 1650 850
+F 0 "#PWR0101" H 1650 700 50  0001 C CNN
+F 1 "+12V" H 1665 1023 50  0000 C CNN
+F 2 "" H 1650 850 50  0001 C CNN
+F 3 "" H 1650 850 50  0001 C CNN
+	1    1650 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L localstuff:+5V #PWR0105
+U 1 1 5DC22C34
+P 1800 750
+F 0 "#PWR0105" H 1800 600 50  0001 C CNN
+F 1 "+5V" H 1815 923 50  0000 C CNN
+F 2 "" H 1800 750 50  0001 C CNN
+F 3 "" H 1800 750 50  0001 C CNN
+	1    1800 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L localstuff:+24V #PWR0102
+U 1 1 5DC221CC
+P 1500 750
+F 0 "#PWR0102" H 1500 600 50  0001 C CNN
+F 1 "+24V" H 1515 923 50  0000 C CNN
+F 2 "" H 1500 750 50  0001 C CNN
+F 3 "" H 1500 750 50  0001 C CNN
+	1    1500 750 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 750  2100 1200
+Wire Wire Line
+	2100 1200 2350 1200
+Wire Wire Line
+	1300 1450 1300 1350
+Wire Wire Line
+	1300 1450 3350 1450
+Wire Wire Line
+	1250 1550 1250 1450
+Wire Wire Line
+	1250 1550 3350 1550
+Wire Wire Line
+	1200 1650 1200 1550
+Wire Wire Line
+	1200 1650 3350 1650
+Wire Wire Line
+	1500 750  1500 1600
+Wire Wire Line
+	2250 850  2250 2050
+Wire Wire Line
+	1650 850  1650 1700
+Wire Wire Line
+	1650 1950 1400 1950
+Wire Wire Line
+	1800 750  1800 1800
+Wire Wire Line
+	1950 850  1950 1750
+Wire Wire Line
+	1950 1750 1550 1750
+Wire Wire Line
+	1550 2650 1550 1750
+Wire Wire Line
+	1650 2650 1650 2100
+Wire Wire Line
+	1650 2100 2850 2100
+Wire Wire Line
+	2850 2000 1750 2000
+Wire Wire Line
+	1750 2000 1750 2650
+Wire Wire Line
+	1850 2650 1850 1250
+Wire Wire Line
+	1850 1250 2100 1250
+Wire Wire Line
+	2100 1250 2100 1200
+Connection ~ 1850 1250
+Connection ~ 2100 1200
+Wire Wire Line
+	3350 1350 2300 1350
+Wire Wire Line
+	2300 1350 2300 2450
+Wire Wire Line
+	2300 2450 2250 2450
+Wire Wire Line
+	2250 2450 2250 2650
+$Comp
+L Diode:BAT54S D1
+U 1 1 5E08AE34
+P 2800 2850
+F 0 "D1" H 2800 2983 50  0000 C CNN
+F 1 "BAT54S" H 2800 3074 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2875 2975 50  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds11005.pdf" H 2680 2850 50  0001 C CNN
+	1    2800 2850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2250 2150 2700 2150
+Wire Wire Line
+	2700 2150 2700 2650
+Wire Wire Line
+	2700 2650 2800 2650
+Wire Wire Line
+	3100 2850 3100 2500
+Wire Wire Line
+	3100 2500 2500 2500
+Wire Wire Line
+	2500 2500 2500 2850
+Wire Wire Line
+	2500 2500 2500 1200
+Connection ~ 2500 2500
+Connection ~ 2500 1200
+Wire Wire Line
+	2500 1200 2850 1200
+Wire Wire Line
+	2850 1800 2150 1800
+Wire Wire Line
+	2850 1900 1950 1900
+Wire Wire Line
+	1950 1900 1950 1750
+Connection ~ 1950 1750
+Wire Wire Line
+	2850 1700 1650 1700
+Connection ~ 1650 1700
+Wire Wire Line
+	1650 1700 1650 1950
+Wire Wire Line
+	2850 1600 1500 1600
+$Comp
+L localstuff:Moat_Bus_wire J2
+U 1 1 5CC3E238
+P 3100 1750
+F 0 "J2" H 3100 2515 50  0000 C CNN
+F 1 "Moat_Bus_wire" H 3100 2424 50  0000 C CNN
+F 2 "localstuff:TE_1775014_socket" H 3200 950 50  0001 C CNN
+F 3 "" H 3150 1900 50  0001 C CNN
+F 4 "255-2411-1-ND " H 3100 2500 50  0001 C CNN "Digikey"
+	1    3100 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 1200 3350 1150
+Wire Wire Line
+	3350 1150 2850 1150
+Wire Wire Line
+	2850 1150 2850 1200
+Connection ~ 2850 1200
+Wire Wire Line
+	3350 2300 3350 2400
+Wire Wire Line
+	3350 2400 2850 2400
+Wire Wire Line
+	2850 2400 2850 2300
+Wire Wire Line
+	2350 2650 2350 2300
+Connection ~ 2350 1200
+Wire Wire Line
+	2350 1200 2500 1200
+Wire Wire Line
+	2850 2300 2350 2300
+Connection ~ 2850 2300
+Connection ~ 2350 2300
+Wire Wire Line
+	2350 2300 2350 1200
+Wire Wire Line
+	2150 2650 2150 1800
+Connection ~ 2150 1800
+Wire Wire Line
+	2150 1800 1800 1800
+Wire Wire Line
+	2850 2200 2850 2150
+Wire Wire Line
+	2850 1300 2850 1250
+$Comp
+L Connector_Generic:Conn_01x07 J4
+U 1 1 5E090F5A
+P 4050 1900
+F 0 "J4" H 4130 1942 50  0000 L CNN
+F 1 "Conn_01x07" H 4130 1851 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical" H 4050 1900 50  0001 C CNN
+F 3 "~" H 4050 1900 50  0001 C CNN
+	1    4050 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 1600 3850 1200
+Wire Wire Line
+	3850 1200 3350 1200
+Connection ~ 3350 1200
+Wire Wire Line
+	2850 1900 2850 1850
+Wire Wire Line
+	2850 1850 3600 1850
+Wire Wire Line
+	3600 1850 3600 2200
+Wire Wire Line
+	3600 2200 3850 2200
+Connection ~ 2850 1900
+Wire Wire Line
+	3350 2200 3500 2200
+Wire Wire Line
+	3500 2200 3500 1700
+Wire Wire Line
+	3500 1700 3850 1700
+Wire Wire Line
+	3850 1800 3550 1800
+Wire Wire Line
+	3550 1800 3550 2150
+Wire Wire Line
+	2850 2150 3550 2150
+Wire Wire Line
+	3350 2100 3650 2100
+Wire Wire Line
+	3650 2100 3650 1900
+Wire Wire Line
+	3650 1900 3850 1900
+Wire Wire Line
+	3350 1300 3700 1300
+Wire Wire Line
+	3700 1300 3700 2000
+Wire Wire Line
+	3700 2000 3850 2000
+Wire Wire Line
+	3850 2100 3750 2100
+Wire Wire Line
+	3750 2100 3750 1250
+Wire Wire Line
+	2850 1250 3750 1250
+Wire Wire Line
+	1150 1950 1150 2550
+Wire Wire Line
+	1150 2550 950  2550
+Wire Wire Line
+	950  2550 950  2700
+Wire Wire Line
+	950  2700 950  2850
+Connection ~ 950  2700
+Wire Wire Line
+	950  2850 950  3000
+Connection ~ 950  2850
+Wire Wire Line
+	1150 2700 1200 2700
+Wire Wire Line
+	1200 2700 1200 1650
+Connection ~ 1200 1650
+Wire Wire Line
+	1250 1550 1250 2850
+Wire Wire Line
+	1250 2850 1150 2850
+Connection ~ 1250 1550
+Wire Wire Line
+	1150 3000 1300 3000
+Wire Wire Line
+	1300 3000 1300 1450
+Connection ~ 1300 1450
+$Comp
+L localstuff:Moat_Bus_8 J1
+U 1 1 5E0BF327
+P 850 1750
+F 0 "J1" H 913 2475 50  0000 C CNN
+F 1 "Moat_Bus_8" H 913 2384 50  0000 C CNN
+F 2 "localstuff:Moat8-Solder" H 700 1350 50  0001 C CNN
+F 3 "" H 850 1850 50  0001 C CNN
+	1    850  1750
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 1350 1300 1350
+Wire Wire Line
+	1050 1450 1250 1450
+Wire Wire Line
+	1050 1550 1200 1550
+Wire Wire Line
+	1050 1250 1850 1250
+Wire Wire Line
+	1050 1650 1100 1650
+Wire Wire Line
+	1100 1650 1100 1700
+Wire Wire Line
+	1100 1700 1450 1700
+Wire Wire Line
+	1450 1700 1450 1800
+Wire Wire Line
+	1450 1800 1800 1800
+Connection ~ 1800 1800
+Wire Wire Line
+	1050 1750 1400 1750
+Wire Wire Line
+	1400 1750 1400 1950
+Connection ~ 1400 1950
+Wire Wire Line
+	1400 1950 1150 1950
+Wire Wire Line
+	1050 1850 1500 1850
+Wire Wire Line
+	1500 1850 1500 1600
+Connection ~ 1500 1600
+Wire Wire Line
+	1050 2050 2250 2050
+Wire Wire Line
+	1050 1950 1050 2050
+Connection ~ 2250 2050
+Wire Wire Line
+	2250 2050 2250 2150
+$EndSCHEMATC

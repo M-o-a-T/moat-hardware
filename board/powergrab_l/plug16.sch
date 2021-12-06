@@ -1,0 +1,266 @@
+EESchema Schematic File Version 5
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+Comment5 ""
+Comment6 ""
+Comment7 ""
+Comment8 ""
+Comment9 ""
+$EndDescr
+$Comp
+L localstuff:Moat_Bus_wire J2
+U 1 1 5CC3E238
+P 1650 1850
+F 0 "J2" H 1650 2615 50  0000 C CNN
+F 1 "Moat_Bus_wire" H 1650 2524 50  0000 C CNN
+F 2 "localstuff:TE_1775014_socket" H 1750 1050 50  0001 C CNN
+F 3 "" H 1700 2000 50  0001 C CNN
+F 4 "255-2411-1-ND " H 1650 2600 50  0001 C CNN "Digikey"
+	1    1650 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L localstuff:Moat_Bus_device J1
+U 1 1 5DC723A0
+P 2150 1750
+F 0 "J1" H 2150 2505 50  0000 C CNN
+F 1 "Moat_Bus_device" H 2150 2414 50  0000 C CNN
+F 2 "localstuff:TE_1775013_plug" H 2150 850 50  0001 C CNN
+F 3 "" H 2000 2750 50  0001 C CNN
+F 4 "A118066CT-ND " H 2150 2400 50  0001 C CNN "Digikey"
+F 5 "571-1775013-2" H 2150 2323 50  0000 C CNN "Mouser"
+	1    2150 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 1300 1400 1350
+Wire Wire Line
+	1400 1350 1900 1350
+Wire Wire Line
+	2400 1350 2400 1300
+Wire Wire Line
+	2400 1400 2400 1450
+Wire Wire Line
+	2400 1450 1400 1450
+Wire Wire Line
+	1400 1450 1400 1400
+Wire Wire Line
+	1400 1500 1400 1550
+Wire Wire Line
+	1400 1550 2400 1550
+Wire Wire Line
+	2400 1550 2400 1500
+Wire Wire Line
+	2400 1600 2400 1650
+Wire Wire Line
+	2400 1650 1400 1650
+Wire Wire Line
+	1400 1650 1400 1600
+Wire Wire Line
+	1400 1700 1400 1750
+Wire Wire Line
+	1400 1750 2400 1750
+Wire Wire Line
+	2400 1750 2400 1700
+Wire Wire Line
+	2400 1800 2400 1850
+Wire Wire Line
+	2400 1850 1400 1850
+Wire Wire Line
+	1400 1850 1400 1800
+Wire Wire Line
+	1400 1900 1400 1950
+Wire Wire Line
+	1400 1950 2400 1950
+Wire Wire Line
+	2400 1950 2400 1900
+Wire Wire Line
+	2400 2000 2400 2050
+Wire Wire Line
+	2400 2050 1400 2050
+Wire Wire Line
+	1400 2050 1400 2000
+Wire Wire Line
+	1400 2100 1400 2150
+Wire Wire Line
+	1400 2150 2400 2150
+Wire Wire Line
+	2400 2150 2400 2100
+Wire Wire Line
+	2400 2200 2400 2250
+Wire Wire Line
+	2400 2250 1400 2250
+Wire Wire Line
+	1400 2250 1400 2200
+Wire Wire Line
+	1400 2300 1400 2350
+Wire Wire Line
+	1400 2350 2400 2350
+Wire Wire Line
+	2400 2350 2400 2300
+Wire Wire Line
+	2400 2400 2400 2450
+Wire Wire Line
+	2400 2450 1900 2450
+Wire Wire Line
+	1400 2450 1400 2400
+$Comp
+L localstuff:+24V #PWR0101
+U 1 1 5DC77302
+P 2600 1300
+F 0 "#PWR0101" H 2600 1150 50  0001 C CNN
+F 1 "+24V" H 2615 1473 50  0000 C CNN
+F 2 "" H 2600 1300 50  0001 C CNN
+F 3 "" H 2600 1300 50  0001 C CNN
+	1    2600 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L localstuff:+12V #PWR0102
+U 1 1 5DC777A6
+P 2700 1350
+F 0 "#PWR0102" H 2700 1200 50  0001 C CNN
+F 1 "+12V" H 2715 1523 50  0000 C CNN
+F 2 "" H 2700 1350 50  0001 C CNN
+F 3 "" H 2700 1350 50  0001 C CNN
+	1    2700 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L localstuff:+5V #PWR0103
+U 1 1 5DC77B89
+P 2800 1300
+F 0 "#PWR0103" H 2800 1150 50  0001 C CNN
+F 1 "+5V" H 2815 1473 50  0000 C CNN
+F 2 "" H 2800 1300 50  0001 C CNN
+F 3 "" H 2800 1300 50  0001 C CNN
+	1    2800 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L localstuff:+3.3V #PWR0104
+U 1 1 5DC780DD
+P 2900 1350
+F 0 "#PWR0104" H 2900 1200 50  0001 C CNN
+F 1 "+3.3V" H 2915 1523 50  0000 C CNN
+F 2 "" H 2900 1350 50  0001 C CNN
+F 3 "" H 2900 1350 50  0001 C CNN
+	1    2900 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L localstuff:GND #PWR0105
+U 1 1 5DC783CA
+P 3000 1300
+F 0 "#PWR0105" H 3000 1050 50  0001 C CNN
+F 1 "GND" H 3005 1127 50  0000 C CNN
+F 2 "" H 3000 1300 50  0001 C CNN
+F 3 "" H 3000 1300 50  0001 C CNN
+	1    3000 1300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2400 2400 3000 2400
+Connection ~ 2400 2400
+Wire Wire Line
+	2400 2050 2900 2050
+Wire Wire Line
+	2900 2050 2900 1450
+Connection ~ 2400 2050
+Wire Wire Line
+	2400 1950 2800 1950
+Wire Wire Line
+	2800 1950 2800 1550
+Connection ~ 2400 1950
+Wire Wire Line
+	2400 1850 2700 1850
+Wire Wire Line
+	2700 1850 2700 1650
+Connection ~ 2400 1850
+Wire Wire Line
+	2400 1750 2600 1750
+Wire Wire Line
+	2600 1750 2600 1300
+Connection ~ 2400 1750
+Wire Wire Line
+	3100 1350 3000 1350
+Wire Wire Line
+	3000 1350 3000 1300
+Wire Wire Line
+	2900 1450 3100 1450
+Connection ~ 2900 1450
+Wire Wire Line
+	2900 1450 2900 1350
+Wire Wire Line
+	3100 1550 2800 1550
+Connection ~ 2800 1550
+Wire Wire Line
+	2800 1550 2800 1300
+Wire Wire Line
+	3100 1650 2700 1650
+Connection ~ 2700 1650
+Wire Wire Line
+	2700 1650 2700 1350
+Wire Wire Line
+	3100 1750 2600 1750
+Connection ~ 2600 1750
+Wire Wire Line
+	1900 1300 1900 1350
+Connection ~ 1900 1300
+Connection ~ 1900 1350
+Wire Wire Line
+	1900 1350 2400 1350
+Wire Wire Line
+	1900 2400 1900 2450
+Connection ~ 1900 2400
+Connection ~ 1900 2450
+Wire Wire Line
+	1900 2450 1400 2450
+$Comp
+L Connector_Generic:Conn_01x06 J3
+U 1 1 5DC7B9EF
+P 3300 1550
+F 0 "J3" H 3380 1592 50  0000 L CNN
+F 1 "Conn_01x06" H 3380 1501 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 3300 1550 50  0001 C CNN
+F 3 "~" H 3300 1550 50  0001 C CNN
+	1    3300 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 1850 3000 1850
+Wire Wire Line
+	3000 1850 3000 2400
+$Comp
+L power:GNDPWR #PWR0106
+U 1 1 5E006515
+P 3000 2400
+F 0 "#PWR0106" H 3000 2200 50  0001 C CNN
+F 1 "GNDPWR" H 3004 2246 50  0000 C CNN
+F 2 "" H 3000 2350 50  0001 C CNN
+F 3 "" H 3000 2350 50  0001 C CNN
+	1    3000 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 1350 3000 1400
+Wire Wire Line
+	3000 1400 2500 1400
+Wire Wire Line
+	2500 1400 2500 1350
+Wire Wire Line
+	2500 1350 2400 1350
+Connection ~ 3000 1350
+Connection ~ 2400 1350
+$EndSCHEMATC
