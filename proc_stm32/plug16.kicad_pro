@@ -371,11 +371,9 @@
         "microvia_drill": 0.1,
         "name": "Power",
         "nets": [
-          "+12V",
           "+3V3",
           "+5V",
-          "GND",
-          "GNDPWR"
+          "GND"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -440,6 +438,11 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "9f8381e9-3077-4453-a480-a01ad9c1a940",
+      ""
+    ]
+  ],
   "text_variables": {}
 }

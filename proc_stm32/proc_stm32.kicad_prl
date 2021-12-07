@@ -76,11 +76,11 @@
         "open": false,
         "window": {
           "display": 0,
-          "maximized": false,
+          "maximized": true,
           "pos_x": 320,
           "pos_y": 253,
-          "size_x": 1280,
-          "size_y": 720
+          "size_x": 1431,
+          "size_y": 904
         }
       }
     ]
