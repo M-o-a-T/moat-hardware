@@ -22,3 +22,5 @@ _autosave-*.sch
 *.gbr
 fp-lib-table
 sym-lib-table
+*.zip
+gerber/
