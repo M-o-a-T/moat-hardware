@@ -34,8 +34,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.42,
-          "width": 0.3
+          "height": 1.5,
+          "width": 0.5
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -338,7 +338,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "plug16.kicad_pro",
+    "filename": "proc_stm32.kicad_pro",
     "version": 1
   },
   "net_settings": {
