@@ -23,4 +23,5 @@ _autosave-*.sch
 fp-lib-table
 sym-lib-table
 *.zip
+*.csv
 gerber/
