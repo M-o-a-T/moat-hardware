@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 31,
+    "active_layer": 36,
     "active_layer_preset": "All Layers",
     "auto_track_width": true,
     "hidden_nets": [],
@@ -81,18 +81,6 @@
           "pos_y": 253,
           "size_x": 1431,
           "size_y": 816
-        }
-      },
-      {
-        "name": "wire_8.kicad_sch",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": false,
-          "pos_x": 142,
-          "pos_y": 38,
-          "size_x": 1280,
-          "size_y": 1007
         }
       }
     ]

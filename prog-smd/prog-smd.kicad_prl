@@ -73,7 +73,7 @@
     "files": [
       {
         "name": "prog-smd.kicad_pcb",
-        "open": false,
+        "open": true,
         "window": {
           "display": 0,
           "maximized": true,

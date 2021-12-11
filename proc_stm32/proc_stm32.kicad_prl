@@ -72,6 +72,18 @@
   "project": {
     "files": [
       {
+        "name": "proc_stm32.kicad_sch",
+        "open": false,
+        "window": {
+          "display": 1,
+          "maximized": false,
+          "pos_x": 1859,
+          "pos_y": 86,
+          "size_x": 1280,
+          "size_y": 1007
+        }
+      },
+      {
         "name": "proc_stm32.kicad_pcb",
         "open": false,
         "window": {
@@ -80,19 +92,7 @@
           "pos_x": 320,
           "pos_y": 253,
           "size_x": 1431,
-          "size_y": 904
-        }
-      },
-      {
-        "name": "proc_stm32.kicad_sch",
-        "open": false,
-        "window": {
-          "display": 1,
-          "maximized": false,
-          "pos_x": 2123,
-          "pos_y": 73,
-          "size_x": 1280,
-          "size_y": 1007
+          "size_y": 816
         }
       }
     ]
