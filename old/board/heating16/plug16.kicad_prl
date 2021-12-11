@@ -62,7 +62,7 @@
       35,
       36
     ],
-    "visible_layers": "003ffff_80000001",
+    "visible_layers": "fffffff_ffffffff",
     "zone_display_mode": 0
   },
   "meta": {
@@ -75,10 +75,10 @@
         "name": "plug16.sch",
         "open": false,
         "window": {
-          "display": 1,
+          "display": 0,
           "maximized": false,
-          "pos_x": 2123,
-          "pos_y": 73,
+          "pos_x": 142,
+          "pos_y": 38,
           "size_x": 1280,
           "size_y": 1007
         }
