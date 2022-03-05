@@ -36,7 +36,6 @@
       8,
       9,
       10,
-      11,
       12,
       13,
       14,
@@ -66,23 +65,10 @@
     "zone_display_mode": 0
   },
   "meta": {
-    "filename": "plug16.kicad_prl",
+    "filename": "base_heating.kicad_prl",
     "version": 3
   },
   "project": {
-    "files": [
-      {
-        "name": "plug16.sch",
-        "open": false,
-        "window": {
-          "display": 1,
-          "maximized": false,
-          "pos_x": 2123,
-          "pos_y": 73,
-          "size_x": 1280,
-          "size_y": 1007
-        }
-      }
-    ]
+    "files": []
   }
 }
