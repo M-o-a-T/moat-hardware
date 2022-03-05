@@ -1601,9 +1601,6 @@
   (gr_text "MoaT\nSTM32 L0" (at 59.45 62.15) (layer "B.Cu") (tstamp 76cec44e-1374-41e1-9e39-24281d608b83)
     (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
   )
-  (gr_text "JLCJLCJLCJLC\n" (at 36.5 52.2 90) (layer "F.SilkS") (tstamp 2aefb2b1-bae4-4a00-9d4b-59b63edc0584)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
 
   (segment (start 57.749768 49.505347) (end 58 49.255115) (width 0.5) (layer "F.Cu") (net 1) (tstamp 0b8a2dae-a309-48dc-8db4-1d925532ce60))
   (segment (start 56.208976 49.754024) (end 56.163797 49.799203) (width 0.5) (layer "F.Cu") (net 1) (tstamp 17273e73-f56b-439b-b938-9bf6bed7bafe))
