@@ -1,15 +1,16 @@
-(footprint "OSHW Logo 3mm Cu" (version 20211014) (generator pcbnew)
+(footprint "OSHW Logo 3mm Cu" (version 20220225) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61B33BE8)
+  (attr board_only exclude_from_pos_files exclude_from_bom)
   (fp_text reference "G***" (at 0 1.769364) (layer "F.SilkS") hide
-    (effects (font (size 0.1524 0.1524) (thickness 0.03048)))
+      (effects (font (size 0.1524 0.1524) (thickness 0.03048)))
     (tstamp 0c0e9f1d-ef8a-4fb0-b279-decfbfe07a6b)
   )
   (fp_text value "LOGO" (at 0 -1.769364) (layer "F.SilkS") hide
-    (effects (font (size 0.1524 0.1524) (thickness 0.03048)))
+      (effects (font (size 0.1524 0.1524) (thickness 0.03048)))
     (tstamp 5036e2c8-b467-4a00-b5aa-cdd8d09094e2)
   )
-  (fp_poly (pts
+  (fp_poly
+    (pts
       (xy -1.011428 1.4986)
       (xy -0.650494 1.273048)
       (xy -0.481076 1.341628)
@@ -55,5 +56,7 @@
       (xy -1.109726 0.83566)
       (xy -1.330198 1.187704)
       (xy -1.011428 1.4986)
-    ) (layer "F.Cu") (width 0.01) (fill solid) (tstamp 69160032-7c3b-48c4-a0ab-80bae3d64fa1))
+    )
+
+    (stroke (width 0.01) (type solid)) (fill solid) (layer "F.Cu") (tstamp 69160032-7c3b-48c4-a0ab-80bae3d64fa1))
 )
