@@ -6,16 +6,16 @@ MoaT Bus Connectors
 02 GND
 03 5V
 04 3V3
-05 Bus 1 in
-06 Bus 1 out
-07 Bus 2 in
-08 Bus 3 out
-09 Bus 3 in
-10 Bus 3 out
-11 I²C Clock
-12 Rx
-13 I²C Data
-14 Tx
+05 Bus 1
+06 Bus 2
+07 Bus 3
+08 Bus 4
+09 I²C Clock
+10 Rx
+11 I²C Data
+12 Tx
+13 S5
+14 1wire
 15 S4
 16 T4
 17 S3
