@@ -36,7 +36,6 @@
       8,
       9,
       10,
-      11,
       12,
       13,
       14,
@@ -70,19 +69,6 @@
     "version": 3
   },
   "project": {
-    "files": [
-      {
-        "name": "wire_16.kicad_pcb",
-        "open": true,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": 320,
-          "pos_y": 253,
-          "size_x": 1431,
-          "size_y": 816
-        }
-      }
-    ]
+    "files": []
   }
 }
