@@ -26,3 +26,4 @@ sym-lib-table
 *.csv
 gerber/
 Gerber/
+\#auto_saved_files#
