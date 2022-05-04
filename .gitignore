@@ -13,6 +13,7 @@
 *.lib
 *.mod
 *.dcm
+*-job.gbrjob
 rescue-backup/
 kicad/*/*.pretty/
 fp-info-cache
