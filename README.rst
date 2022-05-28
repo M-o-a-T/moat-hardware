@@ -9,10 +9,25 @@ Schematics and layouts (kicad), Enclosures (OpenSCAD).
 Up-to-date stuff
 ++++++++++++++++
 
-Wire_16
-+++++++
+---
+BMS
+---
 
-Connect a 16-wire cable to a baseboard.
+Controller and module for battery management.
+
+The hardware design supports both active-high (diyBMS) and active-low
+(MoaT) serial connections.
+
+
+----
+Wire
+----
+
+Connect some wires to the MoaT board.
+
+-----
+adapt
+-----
 
 
 +++++++++
@@ -62,10 +77,12 @@ Old stuff
 The ``old/`` directory contains things I need to clean up.
 
 
-License
-=======
++++++++++
+Licensing
++++++++++
 
-All files in this archive are licensed under the GNU General Public License, V3.
+(Almost) all files in this archive are (c) 2021-2022 by Matthias Urlichs.
+They are licensed under the GNU General Public License, V3.
 
 This means: if you use any these files to build something which you sell or
 give to somebody else, you're required to make the schematics, layouts,
@@ -76,3 +93,10 @@ part of this achive commercially is OK, their creators hereby humbly ask
 for adequate financial remuneration if you use any of these files for
 monetary gain. Thank you.
 
+License exception
++++++++++++++++++
+
+The battery module in the bms/cell subdirectory has originally been
+designed by Stuart Pittaway. It is governed by a Creative Commons
+Attribution-NonCommercial-ShareAlike 2.0 UK: England/Wales license. See the
+file ``bms/cell/LICENSE`` for details.
