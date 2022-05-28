@@ -4662,7 +4662,7 @@
     (in_bom yes) (on_board yes)
     (uuid 4b47cc5b-1af7-4e39-8cce-b2842e6c7f69)
     (default_instance (reference "U") (unit 1) (value "") (footprint ""))
-    (property "Reference" "U" (id 0) (at 135.001 171.577 0)
+    (property "Reference" "U" (id 0) (at 135.89 173.99 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "" (id 1) (at 146.05 159.766 90)
