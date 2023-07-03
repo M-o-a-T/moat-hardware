@@ -1,0 +1,11 @@
+(version 1)
+
+(rule "U3 pins"
+   (constraint track_width (min 0.25mm) (opt 0.25mm))
+   (constraint clearance (min 0.2mm) (opt 0.25mm))
+   (condition "A.intersectsCourtyard('U3')"))
+
+(rule "Caps"
+   (constraint track_width (min 0.25mm) (opt 0.25mm))
+   (constraint clearance (min 0.15mm) (opt 0.2mm))
+   (condition "A.intersectsCourtyard('C*')"))
