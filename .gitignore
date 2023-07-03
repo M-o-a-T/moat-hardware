@@ -27,5 +27,6 @@ sym-lib-table
 *.csv
 gerber/
 Gerber/
+production/
 \#auto_saved_files#
 _autosave-*
