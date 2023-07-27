@@ -25,6 +25,12 @@ Wire
 
 Connect some wires to the MoaT board.
 
+----
+misc
+----
+
+Random stuff (Enocean adapter, USB intercept, …).
+
 -----
 adapt
 -----
