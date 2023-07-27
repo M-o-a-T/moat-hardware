@@ -31,3 +31,4 @@ production/
 \#auto_saved_files#
 _autosave-*
 bom/
+*.xml
