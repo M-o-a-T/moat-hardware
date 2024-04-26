@@ -25,3 +25,14 @@ A simple board to interrupt a control line.
 Available in "plus" and "minus" variants, interrupting the positive vs.
 negative wire.
 
+== espmini
+
+A simple breakout board for an ESP-12S module that can be installed in
+WLAN-connected plugs.
+
+== enocean-rs485
+
+A gateway between Enocean and RS485, for controlling SEW Eurodrive inverters.
+
+
+
