@@ -1,0 +1,109 @@
+(footprint "Hiecube AP05-Zero"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Power 3W")
+	(property "Reference" "REF**"
+		(at -12.33335 -14.54483 0)
+		(layer "F.SilkS")
+		(uuid "2434645c-803b-4400-9c78-adf6459a7b1a")
+		(effects
+			(font
+				(size 1.000677 1.000677)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "VTX-214"
+		(at -2.9045 14.487225 0)
+		(layer "F.Fab")
+		(uuid "b07182a4-b18d-4a1e-baad-4bf6aa395f9b")
+		(effects
+			(font
+				(size 1.001535 1.001535)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.lcsc.com/datasheet/C432582.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e270e5f2-a53a-4a55-895c-eefafaf83e91")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ee171b6a-d08a-4ec5-bdab-6fd29220b03f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -17 -12)
+		(end 17 12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "2be8818c-c23f-4371-aed3-82a17481185e")
+	)
+	(pad "1" thru_hole rect
+		(at -14.5 8.29)
+		(size 2.25 2.25)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d131045c-a56f-45ac-b799-6d8a46a0a9d4")
+	)
+	(pad "2" thru_hole circle
+		(at -14.5 3.21)
+		(size 2.25 2.25)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f2acd9a3-477a-4968-a57f-97521bfcb1a6")
+	)
+	(pad "3" thru_hole circle
+		(at 13.58 -9.5)
+		(size 2.25 2.25)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5ac9d710-5894-4b1e-9ca7-f13f089eeb7b")
+	)
+	(pad "4" thru_hole circle
+		(at 3.42 -9.5)
+		(size 2.25 2.25)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f3dc356e-e568-4917-8997-dca7b6af8689")
+	)
+	(embedded_fonts no)
+	(model "${moat3d}/VTX-214-003-103.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 180)
+		)
+	)
+)
