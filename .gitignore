@@ -13,6 +13,8 @@
 *.lib
 *.mod
 *.dcm
+*.lck
+.kidiff
 *-job.gbrjob
 rescue-backup/
 kicad/*/*.pretty/
@@ -32,3 +34,4 @@ production/
 _autosave-*
 bom/
 *.xml
+fabrication-toolkit-options.json
