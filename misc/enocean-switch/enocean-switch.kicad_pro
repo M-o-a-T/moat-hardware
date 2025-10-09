@@ -67,8 +67,6 @@
         "silk_edge_clearance|123921000|77500000|b2ebf864-567e-4177-8cfc-33d9a8c4398d|6c3db477-58d8-4d5a-8489-b6e205fcc598",
         "silk_edge_clearance|126100000|77500000|b2ebf864-567e-4177-8cfc-33d9a8c4398d|988b6f9c-7eb9-44ed-9a93-4afbdef4db2a",
         "silk_edge_clearance|130373000|36500000|bcdd2f9b-0fc6-43d2-b50b-62b7c4d04e9e|374519f8-dacf-4675-a2e5-64eaecfb066d",
-        "silk_edge_clearance|130373000|36500000|bcdd2f9b-0fc6-43d2-b50b-62b7c4d04e9e|d50c9779-a22c-4deb-97e1-9444d2daf3e3",
-        "silk_edge_clearance|146627000|36500000|bcdd2f9b-0fc6-43d2-b50b-62b7c4d04e9e|a77b033c-3741-4655-98da-d126fd8eed72",
         "silk_edge_clearance|146627000|36500000|bcdd2f9b-0fc6-43d2-b50b-62b7c4d04e9e|de224e76-6c2e-4c64-97df-201b7b659558",
         "starved_thermal|124040000|51500000|54a26155-671f-4961-962c-50cfb9a5f2b8|48a245fc-7fb3-4bc6-be61-be4bfcc41ab4|F.Cu"
       ],
@@ -200,6 +198,13 @@
         }
       ],
       "zones_allow_external_fillets": false
+    },
+    "ipc2581": {
+      "dist": "",
+      "distpn": "",
+      "internal_id": "",
+      "mfg": "",
+      "mpn": ""
     },
     "layer_presets": [],
     "viewports": []
@@ -489,14 +494,76 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
+      "plot": "",
+      "pos_files": "",
       "specctra_dsn": "",
       "step": "",
+      "svg": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
   },
   "schematic": {
     "annotate_start_num": 0,
+    "bom_export_filename": "",
+    "bom_fmt_presets": [],
+    "bom_fmt_settings": {
+      "field_delimiter": ",",
+      "keep_line_breaks": false,
+      "keep_tabs": false,
+      "name": "CSV",
+      "ref_delimiter": ",",
+      "ref_range_delimiter": "",
+      "string_delimiter": "\""
+    },
+    "bom_presets": [],
+    "bom_settings": {
+      "exclude_dnp": false,
+      "fields_ordered": [
+        {
+          "group_by": false,
+          "label": "Reference",
+          "name": "Reference",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Value",
+          "name": "Value",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Datasheet",
+          "name": "Datasheet",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Footprint",
+          "name": "Footprint",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Qty",
+          "name": "${QUANTITY}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "DNP",
+          "name": "${DNP}",
+          "show": true
+        }
+      ],
+      "filter_string": "",
+      "group_symbols": true,
+      "name": "Grouped By Value",
+      "sort_asc": true,
+      "sort_field": "Reference"
+    },
+    "connection_grid_size": 50.0,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
       "dashed_lines_gap_length_ratio": 3.0,
@@ -510,6 +577,11 @@
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
       "label_size_ratio": 0.375,
+      "operating_point_overlay_i_precision": 3,
+      "operating_point_overlay_i_range": "~A",
+      "operating_point_overlay_v_precision": 3,
+      "operating_point_overlay_v_range": "~V",
+      "overbar_offset_ratio": 1.23,
       "pin_symbol_size": 25.0,
       "text_offset_ratio": 0.15
     },
@@ -526,6 +598,7 @@
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
     "spice_save_all_currents": false,
+    "spice_save_all_dissipations": false,
     "spice_save_all_voltages": false,
     "subpart_first_id": 65,
     "subpart_id_separator": 0
