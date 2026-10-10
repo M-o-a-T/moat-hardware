@@ -119,7 +119,7 @@
       "labels": true,
       "lockedItems": false,
       "otherItems": true,
-      "pins": true,
+      "pins": false,
       "symbols": true,
       "text": true,
       "wires": true
